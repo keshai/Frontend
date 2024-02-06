@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    position: relative;
+}
+.bg{
+    height: 740px;
+    width: 1300px;
+}
+
+.popup{
+    height: 440px;
+    width: 600px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: rgb(80, 80, 80);
+    position: absolute;
+
+    top: 110px;
+    left: 320px;
+}
+.image{
+    height: 100%;
+    width: 48%;
+    position: absolute;
+    /* border: 1px solid red; */
+
+    display: inline-block;
+    box-sizing: content-box;
+}
+
+.myimg{
+    width: 250px;
+    height: 400pxpx;
+    position: absolute;
+
+    top: 40px;
+    left: 30px;
+
+}
+
+/* ----------------------------- other half part ------------------------- */
+.about{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid green; */
+
+    position: absolute;
+    left: 50%;
+}
+
+h1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+span{
+    color: rgb(249, 118, 242);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+button{
+    height: 40px;
+    width: 110px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(249, 118, 242);
+    border: 1px solid rgb(249, 118, 242);
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    margin-top: 2px;
+    margin-left: 4.6px;
+}
+
+h1{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn_bdr{
+    height: 50px;
+    width: 125px;
+
+    background-color: white;
+    border: 3px solid rgb(255, 62, 245);
+    border-radius: 40px;
+    
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
