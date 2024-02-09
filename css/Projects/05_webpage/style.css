@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------------------------->>>>>>>>>> MAIN  */
+.main {
+    width: 54%;
+    height: 80%;
+
+    /* border: 2px solid lightcoral; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/* --------------------------------------->>>>>>>>>> LEFT DIV */
+.left {
+    height: 100%;
+    width: 55%;
+    padding: 3%;
+}
+.leftImg{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ---------------------------->>>>>>>>>> RIGHT -> r1,r2,r3 DIV */
+.right {
+    height: 100%;
+    width: 45%;
+
+}
+/* ---------->>>>>> r1 */
+.r1 {
+    width: 100%;
+    height: 70%;
+    border: 1px solid grey;
+    border-radius: 2px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+/* r1 work */
+.insta_font{
+    margin: 5%;
+}
+.instagram{
+    margin-bottom: 20%;
+}
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+form {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 3px;
+}
+
+input {
+    height: 25%;
+    width: 80%;
+
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgb(241, 241, 241);
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    height: 25%;
+    width: 80%;
+    color: white;
+    background-color: #0095f5;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.or{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0px;
+}
+i{
+    color: rgba(8, 0, 255,0.8);
+    margin-right: 2%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    
+    width: 90%;
+    height: 10%;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ---------->>>>>> r2 */
+.r2 {
+    width: 100%;
+    height: 10%;
+    border: 1px solid grey;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+/* r2 work */
+.r21{
+    font-size: 18px;
+}
+.sign{
+    color: blue;
+}
+
+
+
+
+.r3 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btm{
+    width: 35%;
+    height: 60%;
+    padding: 5px;
+}
