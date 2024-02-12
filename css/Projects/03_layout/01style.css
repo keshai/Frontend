@@ -5,7 +5,7 @@
     }
 
     body {
-        background-color: yellow;
+        background-color: rgb(0, 0, 0);
         height: 100vh;
 
     }
@@ -14,7 +14,7 @@
     .first {
         height: 20%;
         width: 100%;
-        background-color: rgb(255, 123, 0);
+        background-color: rgb(118, 118, 255);
         border: 2px solid black;
         display: block;
     }
@@ -23,7 +23,7 @@
     .second {
         height: 60%;
         width: 100%;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 106, 106);
         border: 2px solid black;
         display: flex;
 
@@ -33,7 +33,7 @@
     .second1 {
         width: 40%;
         height: 100%;
-        background-color: aqua;
+        background-color: rgb(138, 255, 255);
         border: 2px solid black;
     }
 
@@ -41,7 +41,7 @@
     .second1-1 {
         width: 100%;
         height: 30%;
-        border: 2px solid black;
+        border: 2px solid rgb(255, 139, 139);
         background-color: brown;
     }
 
@@ -50,14 +50,14 @@
         width: 100%;
         height: 70%;
         border: 2px solid black;
-        background-color: rgb(162, 255, 0);
+        background-color: rgb(212, 255, 136);
     }
 
     /*     second part  -2 */
     .second2 {
         width: 80%;
         height: 100%;
-        background-color: rgb(106, 0, 255);
+        background-color: rgb(185, 134, 255);
         border: 2px solid black;
         display: flex;
         flex-wrap: wrap;
@@ -67,14 +67,14 @@
     #second2-1 {
         height: 60%;
         width: 60%;
-        background-color: antiquewhite;
+        background-color: rgb(187, 139, 255);
         border: 2px solid black;
     }
 
     #second2-2 {
         height: 60%;
         width: 40%;
-        background-color: rgb(100, 57, 0);
+        background-color: rgb(255, 195, 116);
         border: 2px solid black;
         /* display: flex; */
     }
@@ -82,21 +82,21 @@
     .second2-2-1 {
         height: 50%;
         width: 100%;
-        background-color: rgb(0, 255, 162);
-        border: 2px solid black;
+        background-color: rgb(130, 255, 209);
+        border: 2px solid rgb(255, 126, 126);
     }
 
     .second2-2-2 {
         height: 50%;
         width: 100%;
-        background-color: rgb(89, 255, 0);
+        background-color: rgb(176, 255, 133);
         border: 2px solid black;
     }
 
     #second2-3 {
         height: 40%;
         width: 100%;
-        background-color: rgb(255, 0, 38);
+        background-color: rgb(136, 142, 255);
         border: 2px solid black;
     }
 
@@ -105,7 +105,7 @@
     .third {
         height: 20%;
         width: 100%;
-        background-color: green;
+        background-color: rgb(0, 0, 0);
         border: 2px solid black;
         display: flex;
     }
@@ -113,13 +113,13 @@
     .third1 {
         height: 100%;
         width: 70%;
-        background-color: blue;
+        background-color: rgb(138, 255, 189);
         border: 2px solid black;
     }
 
     .third2 {
         height: 100%;
         width: 30%;
-        background-color: rgb(255, 27, 27);
+        background-color: rgb(187, 139, 255);
         border: 2px solid black;
     }

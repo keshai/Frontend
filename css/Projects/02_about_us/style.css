@@ -16,7 +16,7 @@ img{
     width: 600px;
     /* border: 1px solid black; */
     border-radius: 20px;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(125, 125, 125);
     position: absolute;
 
     top: 110px;
@@ -29,7 +29,7 @@ img{
     /* border: 1px solid red; */
 
     display: inline-block;
-    box-sizing: content-box;
+
 }
 
 .myimg{
@@ -98,4 +98,6 @@ h1{
 }
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    padding-right: 10px;
 }
