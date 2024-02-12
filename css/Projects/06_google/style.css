@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+
+}
+/* ------------------------>>>>>>>>>> main */
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* ------------------------>>>>>>>>>> main - m1 */
+.m1{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    word-spacing: 10px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#user{
+    color: rgb(0, 54, 0);
+}
+
+
+/* ------------------------>>>>>>>>>> main - m2 */
+.m2{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 20%;
+    width: 20%;
+}
+.searchBar{
+    width: 50%;
+    height: 10%;
+    padding-left: 12px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+#searchIcon{
+    margin-left: 0px;
+    width: 5%;
+}
+#mic,#tv{
+    margin-right: 0px;
+    width: 5%;
+   
+  
+}
+#search{
+    height: 100%;
+    width: 85%;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+
+
+/* ------------------------>>>>>>>>>> main - m3 */
+.m3{
+    height: 7%;
+    width: 100%;    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+p{
+    padding-left: 20px;
+}
+
+/* ------------------------>>>>>>>>>> main - m4 */
+.m4{
+    height: 5%;
+    width: 100%;
+
+    border: 1px solid rgb(27, 27, 27);
+    display: flex;
+}
+#btm01{
+    height: 100%;
+    width: 50%;
+    margin-left: 0%;
+}
+#btm02{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.lii{
+    
+}
