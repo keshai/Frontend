@@ -12,21 +12,27 @@ nav {
     height: 50px;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    
+
     display: flex;
     align-items: center;
 }
 
-p {
+.navlogo {
     height: 100%;
     width: 50%;
+    padding: 10px 50px;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 5px;
 }
 
-.navbr {
+.navBR{
     height: 100%;
-    width: 20px;
+    width: 40%;
     font-weight: bold;
     font-size: 25px;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 1px;
 }
 
 ul {
@@ -36,16 +42,14 @@ ul {
     justify-content: right;
     align-items: center;
     padding-right: 20px;
-    
-    
 }
 
 li {
     /* flex-direction: column; */
     list-style: none;
-    margin: 5px;
+    margin: 10px;
     letter-spacing: 3px;
-    
+
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
@@ -107,19 +111,20 @@ li {
 
 
 /* ---------------->>>>>>>>>>>>> PROJECTS PAGE  */
-.projects{
+.projects {
     height: 600px;
     width: 100%;
-    
+
 }
 
-.projects1{
+.projects1 {
     height: 15%;
     width: 100%;
     margin-top: 30px;
     margin-left: 20px;
 }
-.projectxt{
+
+.projectxt {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -128,9 +133,10 @@ li {
     display: flex;
     align-items: center;
     padding-left: 20px;
-    
+
 }
-.projects2{
+
+.projects2 {
     height: 85%;
     width: 100%;
 
@@ -140,7 +146,7 @@ li {
     align-items: center;
 }
 
-.imgsec1{
+.imgsec1 {
     height: 50%;
     width: 95%;
 
@@ -148,62 +154,73 @@ li {
     align-items: center;
     justify-content: center;
 }
-.imgsec2{
+
+.imgsec2 {
     height: 50%;
     width: 95%;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.img1,.img2{
+
+.img1,
+.img2 {
     height: 70%;
     width: 23%;
     margin: auto;
     border: 1px solid black;
 }
 
-.img1:nth-child(1){
+.img1:nth-child(1) {
     background-image: url(https://www.w3schools.com/w3images/house5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img1:nth-child(2){
+
+.img1:nth-child(2) {
     background-image: url(https://www.w3schools.com/w3images/house2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img1:nth-child(3){
+
+.img1:nth-child(3) {
     background-image: url(https://www.w3schools.com/w3images/house3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img1:nth-child(4){
+
+.img1:nth-child(4) {
     background-image: url(https://www.w3schools.com/w3images/house4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img2:nth-child(1){
+
+.img2:nth-child(1) {
     background-image: url(https://www.w3schools.com/w3images/house2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img2:nth-child(2){
+
+.img2:nth-child(2) {
     background-image: url(https://www.w3schools.com/w3images/house4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img2:nth-child(3){
+
+.img2:nth-child(3) {
     background-image: url(https://www.w3schools.com/w3images/house3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.img2:nth-child(4){
+
+.img2:nth-child(4) {
     background-image: url(https://www.w3schools.com/w3images/house5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.house{
+
+.house {
     height: 20%;
     width: 45%;
     background-color: black;
@@ -217,19 +234,19 @@ li {
 
 
 /* ---------------->>>>>>>>>>>>> ABOUT PAGE  */
-.about{
+.about {
     height: 600px;
     width: 100%;
-    background-color: rgb(207, 156, 156);
 }
 
-.about1{
+.about1 {
     height: 15%;
     width: 100%;
     margin-top: 30px;
     margin-left: 20px;
 }
-.abouthead{
+
+.abouthead {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -239,9 +256,219 @@ li {
     align-items: center;
     padding-left: 20px;
 }
-.aboutxt{
+
+.about2 {
+    height: 85%;
+    width: 100%;
+
+}
+
+.aboutxt {
     height: 20%;
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 20px   ;
+    padding: 20px;
+}
+
+.cards {
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card {
+    height: 95%;
+    width: 23%;
+    border: none;
+    padding: 5px 0px;
+
+}
+
+#cardimg {
+    height: 50%;
+    width: 100%;
+
+}
+
+.cardimg1 {
+    background-image: url(https://www.w3schools.com/w3images/team2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: none;
+    filter: grayscale(80%);
+}
+
+.cardimg2 {
+    background-image: url(https://www.w3schools.com/w3images/team1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: none;
+    filter: grayscale(80%);
+}
+
+.cardimg3 {
+    background-image: url(https://www.w3schools.com/w3images/team3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: none;
+    filter: grayscale(80%);
+}
+
+.cardimg4 {
+    background-image: url(https://www.w3schools.com/w3images/team4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: none;
+    filter: grayscale(80%);
+}
+
+.carddetail {
+    height: 50%;
+    width: 100%;
+}
+
+.cardname {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.cardrole {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 0px;
+    opacity: 0.40;
+    font-weight: 100;
+}
+
+.carddp {
+    height: 27%;
+    width: 100%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 0px;
+    text-align: justify;
+    font-weight: 100;
+}
+
+.cardbtn {
+    height: 20%;
+    width: 100%;
+    border: none;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px 16px;
+    text-align: justify;
+    font-weight: 100;
+    text-align: center;
+}
+
+/* ---------------->>>>>>>>>>>>> Contact Page  */
+.contactPage {
+    height: 500px;
+    width: 100%;
+}
+
+.contactH1 {
+    height: 25%;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.contactH1p {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.contactH2 {
+    height: 23px;
+    width: 100%;
+    margin: 10px 5px;
+    padding: 4px 20px;
+
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contactH3 {
+    height: 65%;
+    width: 100%;
+    padding: 4px 20px;
+}
+
+input {
+    height: 15%;
+    width: 100%;
+    margin-top: 16px;
+    padding: 8px;
+    border: 1px solid #ccc !important;
+}
+
+.contactbtn {
+    height: 40px;
+    width: 160px;
+    font-size: 15px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+/* ---------------->>>>>>>>>>>>> Contact Page  */
+.final {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.final1 {
+    height: 85%;
+    width: 97%;
+}
+
+.final1img {
+    height: 98%;
+    width: 100%;
+
+    background-image: url(https://www.w3schools.com/w3images/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.final2 {
+    height: 15%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 3%;
+
+}
+
+.final2p {
+    width: 100%;
+    color: white;
+    text-align: center;
+
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: white;
 }
