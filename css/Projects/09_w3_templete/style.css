@@ -1,0 +1,251 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ----------------------->>>>>>>>>>>>>> ASIDE PAGE --->>> */
+aside {
+    height: 100%;
+    width: 22%;
+    position: fixed;
+}
+
+/* ----->>>>> ASIDE TOP */
+.asidetop {
+    height: 30%;
+    width: 100%;
+}
+
+.asideimg {
+    height: 55%;
+    width: 45%;
+    background-image: url(https://www.w3schools.com/w3images/avatar_g2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.portfloio {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.portfoliod {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    margin: 15px 0px;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+
+/* ----->>>>> ASIDE BOTTOM */
+.asidebottom {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.asidecontent {
+    height: 50%;
+    width: 100%;
+}
+
+.asidecontent1 {
+    height: 10%;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 8px 16px;
+
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+}
+
+i {
+    color: rgb(0, 0, 0);
+}
+
+.soicallink {
+    height: 50%;
+    width: 80%;
+
+}
+
+#links {
+    color: black;
+    margin-left: 20px;
+    size: 16px;
+    margin: 16px 0px;
+}
+
+/* ----------------------->>>>>>>>>>>>>> MAIN PAGE --->>> */
+.main{
+    height: 100%;
+    width: 78%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* ----------------------->>>>>>>>>>>>>> FIRST PAGE --->>> */
+.first{
+    height: 900px;
+    width: 97%;
+    background-color: rgb(241, 241, 241);
+}
+.mainhead{
+    height: 50px;
+    width: 100%;
+    margin: 10px 0px;
+
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+}
+.firstcont{
+    height: 800px;
+    width: 100%;
+}
+.firstcont1{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
+.filters{
+    background-color: white;
+    height: 100%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 16px 0px;
+    margin: 0px 5px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+}
+hr{
+    margin: 20px 0px;
+    height: 5px;
+    background-color: rgb(204, 204, 204);
+}
+
+
+.firstcont2{
+    height: 720px;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.firstphoto{
+    height: 340px;
+    width: 300px;
+    background-color: white;
+}
+.firstphoto0{
+    height: 60%;
+    width: 100%;
+}
+#firstphoto1{
+    background-image: url(https://www.w3schools.com/w3images/mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#firstphoto2{
+    background-image: url(https://www.w3schools.com/w3images/lights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#firstphoto3{
+    background-image: url(https://www.w3schools.com/w3images/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#firstphoto4{
+    background-image: url(https://www.w3schools.com/w3images/p1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#firstphoto5{
+    background-image: url(https://www.w3schools.com/w3images/p2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#firstphoto6{
+    background-image: url(https://www.w3schools.com/w3images/p3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.firstphotod{
+    height: 40%;
+    width: 100%;
+    position: relative;
+}
+.imgh{
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    padding: 5px 10px;
+    
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+}
+.imgdis{
+    height:60%;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+
+    padding: 16px 10px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+}
+
+/* ----------------------->>>>>>>>>>>>>> PAGE NUMBER --->>> */
+.pagenum{
+    height: 110px;
+    width: 97%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagenumm{
+    
+}
+.pn{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+
+}
