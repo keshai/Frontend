@@ -84,7 +84,6 @@ i {
 .soicallink {
     height: 50%;
     width: 80%;
-
 }
 
 #links {
@@ -172,8 +171,9 @@ hr {
 
 .firstphoto {
     height: 340px;
-    width: 300px;
+    width: 350px;
     background-color: white;
+
 }
 
 .firstphoto0 {
@@ -283,16 +283,16 @@ hr {
 
 /* ----------------------->>>>>>>>>>>>>> ABOUT IMG PAGE --->>> */
 .aboutimg {
-    height: 280px;
+    height: 340px;
     width: 97%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .aboutimg0 {
     height: 100%;
-    width: 458px;
+    width: 49%;
 }
 
 #aboutimg1 {
@@ -603,11 +603,42 @@ input{
     display: flex;
     flex-wrap: wrap;
 
+
 }
 .blogpost0{
     height: 100px;
     width: 100%;
-    border: 1px solid rgba(0, 0, 0,0.2);
+    /* border: 1px solid rgba(0, 0, 0,0.2); */
+    /* display:flex; */
+    justify-content: center;
+}
+#blogpost1{
+    background-image: url(https://www.w3schools.com/w3images/workshop.jpg);
+    background-repeat: no-repeat;
+    background-size: 70px;
+
+}
+#blogpost2{
+    background-image: url(https://www.w3schools.com/w3images/gondol.jpg);
+    background-repeat: no-repeat;
+    background-size: 70px;
+
+}
+.bpheading{
+    font-size: 24px;
+    font-weight: lighter;
+    color: white;
+    margin-top: 10px;
+    margin-left: 25%;
+    font-family: "Raleway", sans-serif; 
+}
+.bppara{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    margin-top: 5px;
+    margin-left: 25%;
+    font-family: "Raleway", sans-serif; 
 }
 .bp{
     margin-top: 20px;
