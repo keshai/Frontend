@@ -129,7 +129,7 @@ i {
 }
 
 .firstcont1 {
-    height: 40px;
+    height: 45px;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -140,15 +140,24 @@ i {
 .filters {
     background-color: white;
     height: 100%;
-    width: 80px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     padding: 16px 0px;
-    margin: 0px 5px;
+    margin: 0px 2px;
     font-size: 15px;
     font-family: "Raleway", sans-serif;
+}
+.filtersfilters{
+    margin: 0px 20px 0px 0px;
+}
+#filtersall{
+    width: 70px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
 }
 
 hr {
@@ -171,7 +180,7 @@ hr {
 
 .firstphoto {
     height: 340px;
-    width: 350px;
+    width: 340px;
     background-color: white;
 
 }
