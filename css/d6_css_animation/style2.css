@@ -1,0 +1,380 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* main-box */
+.mainbox{
+    height: 600px;
+    width: 700px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+
+/* box */
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+}
+
+#box1{
+    left: 0px;
+    top: 0px;
+    animation-name: bb1;
+    /* animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 1; */
+    z-index: 1;
+    
+    background-color: rgb(255, 255, 255);
+}
+#box2{
+    top: 0px;
+    left: 0px;
+    animation-name: bb2;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    
+    background-color: rgb(225, 255, 0);
+}
+#box3{
+    top: 0px;
+    left: 0px;
+
+    animation-name: bb3;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    
+    background-color: rgb(0, 255, 98);
+}
+#box4{
+    top: 0px;
+    left: 0px;
+   
+    animation-name: bb4;
+    animation-duration: 3s;
+    animation-delay: 2.5s;
+    animation-iteration-count: 1;
+    
+    background-color: rgb(72, 0, 255);
+}
+#box5{
+    top: 0px;
+    left: 0px;
+    
+    animation-name: bb5;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+
+    background-color: rgb(242, 0, 255);
+}
+#box6{  
+    top: 0px;
+    left: 0px;
+    
+    animation-name: bb6;
+    animation-duration: 3s;
+    animation-delay: 3.5s;
+    animation-iteration-count: 1;
+
+    background-color: rgb(255, 170, 0);
+}
+#box7{  
+    top: 0px;
+    left: 0px;
+    
+    animation-name: bb7;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+
+    background-color: rgb(166, 255, 0);
+}
+#box8{  
+    top: 0px;
+    left: 0px;
+    
+    animation-name: bb8;
+    animation-duration: 3s;
+    animation-delay: 4.5s;
+    animation-iteration-count: 1;
+
+    background-color: rgb(0, 255, 110);
+}
+#box9{  
+    top: 0px;
+    left: 0px;
+    
+    animation-name: bb9;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+
+    background-color: rgb(0, 251, 255);
+}
+#box10{  
+    top: 0px;
+    left: 0px;
+    
+    animation-name: bb10;
+    animation-duration: 3s;
+    animation-delay: 5.5s;
+    animation-iteration-count: 1;
+
+    background-color: rgb(132, 0, 255);
+}
+
+/* animation -1 */
+@keyframes bb{
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    20%{
+        left: 600px;
+        top: 0px;
+    }
+    40%{
+        left: 600px;
+        top: 500px;
+    }
+    60%{
+        left: 0px;
+        top: 500px;
+    }
+    80%{
+        left: 0px;
+        top: 0px;
+    }
+
+}
+
+/* animation -2 */
+@keyframes bb2{
+    0%{
+        top: 0px;
+        left:0px;
+    }
+    20%{
+        left: 600px;
+        top: 0px;
+    }
+    40%{
+        left: 600px;
+        top: 500px;
+    }
+    60%{
+        left: 0px;
+        top: 500px;
+    }
+    80%{
+        left: 0px;
+        top: 0px;
+    }
+}
+
+/* animation -3 */
+@keyframes bb3{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        left: 600px;
+        top: 0px;
+    }
+    40%{
+        left: 600px;
+        top: 500px;
+    }
+    60%{
+        left: 0px;
+        top: 500px;
+    }
+    80%{
+        left: 0px;
+        top: 0px;
+    }
+
+}
+
+/* animation -4 */
+@keyframes bb4{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        left: 600px;
+        top: 0px;
+    }
+    40%{
+        left: 600px;
+        top: 500px;
+    }
+    60%{
+        left: 0px;
+        top: 500px;
+    }
+    80%{
+        left: 0px;
+        top: 0px;
+    }
+
+}
+
+/* animation -5 */
+@keyframes bb5{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        left: 600px;
+        top: 0px;
+    }
+    40%{
+        left: 600px;
+        top: 500px;
+    }
+    60%{
+        left: 0px;
+        top: 500px;
+    }
+    80%{
+        left: 0px;
+        top: 0px;
+    }
+    
+}
+
+/* animation -6 */
+@keyframes bb56{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        left: 600px;
+        top: 0px;
+    }
+    40%{
+        left: 600px;
+        top: 500px;
+    }
+    60%{
+        left: 0px;
+        top: 500px;
+    }
+    80%{
+        left: 0px;
+        top: 0px;
+    }
+    
+}
+/* animation -7 */
+@keyframes bb7{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        left: 600px;
+        top: 0px;
+    }
+    40%{
+        left: 600px;
+        top: 500px;
+    }
+    60%{
+        left: 0px;
+        top: 500px;
+    }
+    80%{
+        left: 0px;
+        top: 0px;
+    }
+    
+}
+
+/* animation -8 */
+@keyframes bb8{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        left: 600px;
+        top: 0px;
+    }
+    40%{
+        left: 600px;
+        top: 500px;
+    }
+    60%{
+        left: 0px;
+        top: 500px;
+    }
+    80%{
+        left: 0px;
+        top: 0px;
+    }
+    
+}
+
+/* animation -9 */
+@keyframes bb9{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        left: 600px;
+        top: 0px;
+    }
+    40%{
+        left: 600px;
+        top: 500px;
+    }
+    60%{
+        left: 0px;
+        top: 500px;
+    }
+    80%{
+        left: 0px;
+        top: 0px;
+    }
+    
+}
+
+/* animation - 10 */
+@keyframes bb10{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        left: 600px;
+        top: 0px;
+    }
+    40%{
+        left: 600px;
+        top: 500px;
+    }
+    60%{
+        left: 0px;
+        top: 500px;
+    }
+    80%{
+        left: 0px;
+        top: 0px;
+    }
+    
+}
