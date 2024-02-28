@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(255, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+    transition: all 5s;
+}
+.box{
+    height: 30%;
+    width: 31%;
+    transition: all 2s;
+}
+
+#box1{
+    position: absolute;
+    top: 0px;
+    background-color: rgb(206, 135, 135);
+}
+#box2{
+    position: absolute;
+    right: 0px;
+    background-color: rgb(206, 135, 135);
+}
+#box3{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(206, 135, 135);
+}
+#box4{
+    position: absolute;
+    left: 0px;
+    background-color: rgb(206, 135, 135);
+}
+#box5{
+    position: absolute;
+    /* left: 0px; */
+    background-color: rgb(206, 135, 135);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box51{
+    height: 95%;
+    width: 95%;
+    border: none;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+    background-color: rgb(112, 143, 255);
+    transition: all 2s;
+    animation-iteration-count: infinite;
+
+}
+
+
+/* hover effects */
+.mainbox:hover{
+    background-color: rgb(235, 255, 221);
+}
+
+#box1:hover{
+        background-color: rgb(112, 143, 255);
+        /* transform: rotate(45deg); */
+        transform: translateY(-100px);
+}
+#box2:hover{
+    background-color: rgb(112, 143, 255);
+    transform: translateX(100px);
+}
+#box3:hover{
+    background-color: rgb(112, 143, 255);
+    transform: translateY(100px);
+}
+#box4:hover{
+    background-color:rgb(112, 143, 255);
+    transform: translateX(-100px);
+    /* transform: scale(0.5); */
+}
+#box5:hover{
+    background-color: rgb(112, 143, 255);
+    transform: scale(1.2);
+    transform: rotate(180deg);    
+}
+.box51:hover{
+    background-color: rgb(206, 135, 135);
+    /* transform: scale(0); */
+    transform: rotate(180deg);      
+}
