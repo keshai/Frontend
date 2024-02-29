@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+
+}
+
+/* ------------------------| contactbar |------------------------ */
+.contactbar{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(18, 37, 143);
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cb1{
+    height: 100%;
+    width: 60%;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    cursor: pointer;
+
+}
+.cbPhone{
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 35px;
+    color: white;
+}
+
+.cbMail{
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10px;
+    color: white;
+}
+#cb1Icon{
+    margin: 0px 8px;
+}
+
+
+.cb2{
+    height: 100%;
+    width: 40%;
+    padding: 5px 100px 5px 200px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.cb2Icons{
+    /* parent div */
+    height: 23px;
+    width: 23px;
+    background-color: rgb(65, 80, 165);
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0px 5px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#cb2Icon{
+    font-size: 14px;
+    /* inner 4 icons */
+    color: white;
+    border-radius: 50%;
+}
+
+/* ------------------------| contactbar |------------------------ */
+.navigationBar{
+    /* complete - bar */
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+.brandLogo{
+    /* logo */
+    height: 100%;
+    width: 15%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    /* navbar */
+    height: 100%;
+    width: 85%;
+    border: 1px solid black;
+}
