@@ -462,7 +462,7 @@ body{
 .whyHeading::after{
     width: 10%;
     content: "";
-    border: 2px solid rgb(36, 45, 111);
+    border: 1px solid rgb(36, 45, 111);
     position: absolute;
     top: 50px;
     left: 45%;
@@ -470,23 +470,57 @@ body{
 
 .whyBOX{
     width: 100%;
-    border: 1px solid black;
     margin: 20px 0px;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 150px;
 }
-.whyBOX1{
-    border: 1px solid red;
+.whyBOX1,.whyBOX2,.whyBOX3,.whyBOX4{
+    height: 17rem;
+    width: 21rem;
+    background-color: rgb(246, 246, 246);
+    border: 5px double rgb(36, 45, 111);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
 }
-.wBOXimg1{
-    background-image: url("images/why_choose_us_1.jpg");
-    height: 50px;
-    width: 50px;
+.wBOXimg1,.wBOXimg2,.wBOXimg3,.wBOXimg4{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.wBOXimg2{
-    background-image: url("images/why_choose_us_2.jpg");
+.smallIMG{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%;
 }
-.wBOXimg3{
-    background-image: url("images/why_choose_us_3.jpg");
+
+.wBOXheading{
+    font-size: 1.2rem;
+    color:  rgb(36, 45, 111);
+    
 }
-.wBOXimg4{
-    background-image: url("images/why_choose_us_4.jpg");
+.wBOXdisc{
+    font-size: 0.9rem;
+    color: rgb(65, 65, 65);
+    padding: 2px 5px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+/* ------------------------| OUR MISSION |------------------------ */
+.mission{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
 }
