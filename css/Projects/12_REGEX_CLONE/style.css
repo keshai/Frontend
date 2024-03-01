@@ -3,6 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
+html{
+    font-size: 16px;
+    font-family: "Open Sans", Sans-serif;
+}
 body{
     height: 100vh;
 
@@ -10,15 +14,13 @@ body{
 
 /* ------------------------| contactbar |------------------------ */
 .contactbar{
-    height: 35px;
-    width: 100%;
+    min-width: 1052px;
     background-color: rgb(18, 37, 143);
 
     display: flex;
     flex-wrap: nowrap;
 }
 .cb1{
-    height: 100%;
     width: 60%;
 
     display: flex;
@@ -28,7 +30,7 @@ body{
 
 }
 .cbPhone{
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -39,7 +41,7 @@ body{
 }
 
 .cbMail{
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -54,10 +56,8 @@ body{
 
 
 .cb2{
-    height: 100%;
     width: 40%;
     padding: 5px 100px 5px 200px;
-
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -87,7 +87,8 @@ body{
 /* ------------------------| contactbar |------------------------ */
 .navigationBar{
     /* complete - bar */
-    height: 100px;
+   
+    min-width: 1052px;
     width: 100%;
     background-color: white;
     border: 1px solid black;
@@ -97,29 +98,395 @@ body{
 }
 .brandLogo{
     /* logo */
-    height: 100%;
     width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.navbar{
+    /* navbar */
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.navUlist{
+    /* unordered-list */
+
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.navList{
+    margin: 0px 15px;
+    padding: 5px 0px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s;
+   
+}
+.navList:hover{
+    border-bottom: 10px black;
+    box-shadow: 0px 2px 0px blue;    
+}
+
+/* ------------------------| HOME |------------------------ */
+.home{
+    height: 500px;
+    min-width: 1052px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/home1.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeText{
+    /* this is the div of all text in home page */
+    position: relative;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+.batchDetails{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    max-width: 1600px;
+    max-height: 500px;
+    min-width: 1095px;
+}
+.bd1{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+.bd2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.bd3{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.regiBtn{
+    height: 2.5rem;
+    width: 10rem;
+    border: 2px solid white;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registerNowBTN{
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+/* ------------------------| OUR GOAL |------------------------ */
+.ourGoal{
+    width: 85%;
+    max-width: 1920px;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 20px 25px;
+    background-color: rgb(36, 45, 111);
     border: 1px solid black;
+    color: white;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+#og1{
+/* our goal */
+    height: 8rem;
+    width: 25%;
+    padding: 0px;
+}
+.ogHeading{
+    font-size: 2rem;
+    font-weight: lighter;
+    margin: 10px 5px;
+}
+.ogPara{
+    font-size: 1rem;
+    font-weight: lighter;
+    margin: 25px 5px;
+    line-height: 1.7;
+}
+
+#log2::before{
+    height: 100%;
+    width: 2px;
+    border: 2px solid rgb(255, 0, 0);
+    z-index: 2;
+}
+
+#og2{
+/* our  goal cards */
+    height: 8rem;
+    width: 75%;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.ogCard{
+    height: 120px;
+    width: 250px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s;
+}
+.ogCard:hover{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255,0.5);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.ogCardIMG{
+    height: 80%;
+    width: 100%;
+}
+#ogCardIMG1{
+    background-image: url("images/our_goal_1.png");
+    background-size:20%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#ogCardIMG2{
+    background-image: url("images/our_goal_2.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ogCardIMG3{
+    background-image: url("images/our_goal_3.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ogCardCont{
+    height: 20%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.navbar{
-    /* navbar */
-    height: 100%;
-    width: 85%;
-    border: 1px solid rgb(255, 0, 0);
-
-    
+.og2p{
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: lighter;
+    margin: 5px 5px;
 }
-.navUlist{
-    /* unordered-list */
-    height: 100%;
-    width: 100%;
+
+/* ------------------------| WHAT WE DO |------------------------ */
+.wwd{
     display: flex;
     flex-wrap: nowrap;
-    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin: 40px;
+    padding: 20px;
 }
-.navList{
-    
+.wwdIMG{
+    height: 450px;
+    width: 430px;
+    box-shadow: 0px 0px 10px rgb(90, 90, 90);
+
+    background-image: url("images/what_we_do.webp");
+    background-size: 97%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wwdCont{
+    /* height: 450px; */
+    width: 600px;
+}
+.wwdCont1{
+    font-size: 1.2rem;
+    color: rgb(122, 122, 122);
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+.wwdCont2{
+    font-size: 2.5rem;
+    color: rgb(36, 45, 111);
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.wwdCont3{
+    font-size: 1rem;
+    color: rgb(122, 122, 122);
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+.wwdCont4{
+
+}
+.wwdButton{
+    height: 40px;
+    width: 130px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 45, 111);
+    border: 1px solid rgb(36, 45, 111);
+    border-radius: 5px;
+    margin: 20px 0px;
+    transition: all 0.3s;
+}
+.wwdButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(36, 45, 111);
+}
+/* ------------------------| WELCOMME TO REGEX SOFTWARE SERVICES |------------------------ */
+.welcome{
+    width: 100%;
+    background-color: rgb(36, 45, 111);
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.wcCont{
+    width: 650px;
+
+}
+.wcCont1{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    margin: 25px 0px;
+}
+.wcCont2{
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 1.9;
+    margin: 10px 0px;
+}
+.wcCont3{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.wcbtn1,.wcbtn2{
+    height: 40px;
+    width: 210px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 15px 0px;
+    transition: all 0.3s;
+}
+.wcbtn1{
+    color: rgb(36, 45, 111);
+    background-color: white;
+}
+.wcbtn2:hover{
+    /* btn hover */
+    cursor: pointer;
+    background-color: white;
+    color: rgb(36, 45, 111);
+}
+.wcbtn1:hover{
+    /* btn hover */
+    cursor: pointer;
+    background-color:  rgb(36, 45, 111);
+    color: white;
+}
+
+
+
+.wcIMG{
+    /* welcome image */
+    height: 450px;
+    width: 430px;
+    background-image: url("images/weclome_to_regex.png");
+    background-size: 97%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* ------------------------| Why Choose Us |------------------------ */
+.whyUS{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+    position: relative;
+}
+.whyHeading{
+    font-size: 2rem;
+    color: rgb(36, 45, 111);
+    font-weight: bold;
+}
+.whyHeading::after{
+    width: 10%;
+    content: "";
+    border: 2px solid rgb(36, 45, 111);
+    position: absolute;
+    top: 50px;
+    left: 45%;
+}
+
+.whyBOX{
+    width: 100%;
+    border: 1px solid black;
+    margin: 20px 0px;
+}
+.whyBOX1{
+    border: 1px solid red;
+}
+.wBOXimg1{
+    background-image: url("images/why_choose_us_1.jpg");
+    height: 50px;
+    width: 50px;
+}
+.wBOXimg2{
+    background-image: url("images/why_choose_us_2.jpg");
+}
+.wBOXimg3{
+    background-image: url("images/why_choose_us_3.jpg");
+}
+.wBOXimg4{
+    background-image: url("images/why_choose_us_4.jpg");
 }
