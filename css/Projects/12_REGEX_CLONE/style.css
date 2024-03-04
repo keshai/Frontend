@@ -660,7 +660,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: rgba(36, 45, 111,0.8);
-    position: absolute;
+    /* position: absolute; */
 }
 .knowMoreHeading{
     /* heading */
@@ -692,4 +692,71 @@ body{
     height: 40px;
     width: 160px;
     border: none;
+}
+
+.knowMore2{
+    /* 2nd part  */
+    padding: 0px 145px;
+}
+.ourServ{
+    /* black div that overlapse */
+    width: 370px;
+    margin: 30px 0px;
+    padding: 20px 25px;
+    color: white;
+    background-color: rgba(8, 8, 8,0.8);
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.servHeading{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0px 0px 40px 0px;
+}
+.servHeading::after{
+    /* bottom white line */
+    width: 30%;
+    content: "";
+    border: 2px solid white;
+    position: absolute;
+    top: 70px;
+    left: 35%;
+}
+
+.ourServices{
+    /* 3 div - 3 services */
+    width: 100%;
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: start;
+    justify-content: center;
+}
+
+.servIcon{
+    /* icon div */
+    height: 100%;
+}
+#servIcons{
+    /* icon main */
+    font-size: 30px;
+    margin: 0px 30px 0px 0px;
+}
+.servDisc{
+    /* main div for disc and headings */
+    margin: 0px 0px 0px 20px;
+}
+.servHead{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.servPara{
+    font-size: 0.9rem;
+    line-height: 1.3;
+    font-weight: lighter;
+    margin: 1rem 0rem 0rem 0rem;
 }
