@@ -9,7 +9,9 @@ html{
 }
 body{
     height: 100vh;
-
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
 }
 
 /* ------------------------| contactbar |------------------------ */
@@ -907,7 +909,6 @@ body{
 
 /* ------------------------| SHIVAM |------------------------ */
 .shivam{
-    border: 1px solid black;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -916,7 +917,6 @@ body{
 
 }
 .sLeft{
-
     /* width: 25%; */
     margin: 0px 10px 0px 100px;
 }
@@ -979,3 +979,309 @@ body{
     background-color: white;
     border: 1px solid rgb(36, 45, 111);
 }
+
+
+/* -----------------------------| EXPERTS |----------------------------- */
+.exterts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(246, 246, 246);
+}
+.expertHeading{
+    width: 85%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+    margin: 50px 0px 50px 0px;
+}
+.eh1{
+    /* main heading */
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(36, 45, 111);
+}
+.eh1::after{
+    content: '';
+    width: 55%;
+    border-bottom: 1px dotted rgb(36, 45, 111);
+    position: absolute;
+    left: 28%;
+    top: 50%;
+    z-index: 1;
+}
+.seeAllBTN{
+    height: 40px;
+    width: 130px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(36, 45, 111);
+    border: 1px solid rgb(36, 45, 111);
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+.seeAllBTN:hover{
+    color: rgb(36, 45, 111);
+    background-color: white;
+    border: 1px solid rgb(36, 45, 111);
+}
+#arrow{
+    margin: 0px 0px 0px 10px;
+}
+
+.allCards{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0px 0px 20px 0px;
+}
+
+.cards1,.cards2,.cards3{
+    /* width: 85%; */
+    /* width: 700px; */
+    margin: 30px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 15px rgb(124, 124, 124);
+}
+.cards1,.cards3{
+    background-color: rgb(36, 45, 111);
+}
+.cards2{
+    background-color: rgb(255, 255, 255);
+    margin: 0px 0px 0px 320px;
+}
+
+.cardLeft{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardIMG1,.cardIMG2M,.cardIMG3{
+    height: 230px;
+    width:  230px;
+    margin: 20px 10px;
+    /* box-shadow: 0px 0px 15px black; */
+
+}
+.cardIMG1{
+    background-image: url("images/expert_01.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 7px 6px rgb(200, 200, 200);
+}
+.cardIMG2M{
+    background-image: url("images/expert_02.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -5px 7px 6px rgb(36, 45, 111);
+}
+.cardIMG3{
+    background-image: url("images/expert_03.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 7px 6px rgb(200, 200, 200);
+}
+
+.cardRight{
+    width: 620px;
+    padding: 20px 10px;
+
+}
+.cardHeading{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    margin: 10px 0px 10px 0px;
+}
+.cardRole{
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 15px 0px;
+}
+.cardDisc{
+    font-size: 1.1rem;
+    color: rgb(207, 207, 207);
+    margin: 10px 0px 20px 0px;
+    line-height: 1.5;
+}
+/* for mohit sir */
+.cardRightM{
+    width: 620px;
+    padding: 20px 10px 20px 10px;
+
+}
+.cardHeadingM{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(36, 45, 111);
+    margin: 20px 0px 10px 0px;
+}
+.cardRoleM{
+    font-size: 1.1rem;
+    color: rgb(36, 45, 111);
+    margin: 0px 0px 25px 0px;
+}
+.cardDiscM{
+    font-size: 1.1rem;
+    color: rgb(122, 122, 122);
+    margin: 20px 0px 20px 0px;
+} 
+
+
+/* -----------------------------| Events Gallery |----------------------------- */
+.eventsGall{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.eventHeading{
+    width: 85%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+    margin: 50px 0px 50px 0px;
+}
+.eh1{
+    /* main heading */
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(36, 45, 111);
+}
+.eh1::after{
+    content: '';
+    width: 60%;
+    border-bottom: 1px dotted rgb(36, 45, 111);
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    z-index: 1;
+}
+.viewMoreBTN{
+    height: 40px;
+    width: 150px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(36, 45, 111);
+    border: 1px solid rgb(36, 45, 111);
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+.viewMoreBTN:hover{
+    color: rgb(36, 45, 111);
+    background-color: white;
+    border: 1px solid rgb(36, 45, 111);
+}
+/* event photos */
+.epBOX{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative; 
+    margin: 40px 0px 70px 0px;
+}
+.ePhotos:nth-child(n){
+    height: 189px;
+    width: 288px;
+    margin: 2px 0px;
+    transition: all 0.7s;
+}
+.ePhotos:nth-child(n):hover{
+    height: 189px;
+    width: 288px;
+    margin: 2px 0px;
+    filter: brightness(0.6);
+}
+
+.ePhotos:nth-child(1){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2020/02/WhatsApp-Image-2020-02-21-at-1.45.11-AM.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.ePhotos:nth-child(2){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2020/02/WhatsApp-Image-2020-02-21-at-1.08.28-AM.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.ePhotos:nth-child(3){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2020/02/WhatsApp-Image-2020-02-21-at-1.05.24-AM.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.ePhotos:nth-child(4){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2020/02/WhatsApp-Image-2020-02-21-at-1.05.25-AM.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.ePhotos:nth-child(5){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2020/02/IMG_20200123_172935-min-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ePhotos:nth-child(6){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2020/02/IMG_20200215_210145_143-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ePhotos:nth-child(7){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2020/02/IMG-20200201-WA0020-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ePhotos:nth-child(8){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2023/04/2023-02-19-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ePhotos:nth-child(9){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2023/04/2021-04-11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ePhotos:nth-child(10){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2023/04/2022-07-20.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ePhotos:nth-child(11){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2023/04/2023-02-19-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ePhotos:nth-child(12){
+    background-image: url(https://www.regexsoftware.com/wp-content/uploads/2023/04/2023-02-19.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* -----------------------------| Placed Students |----------------------------- */
+.placedStudents{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
