@@ -20,7 +20,6 @@ body{
 
 /* ------------------------| contactbar |------------------------ */
 .contactbar{
-    min-width: auto;
     background-color: rgb(18, 37, 143);
 
     display: flex;
@@ -28,12 +27,10 @@ body{
 }
 .cb1{
     width: 60%;
-
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     cursor: pointer;
-
 }
 .cbPhone{
     /* height: 100%; */
@@ -41,7 +38,6 @@ body{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    
     margin-left: 35px;
     color: white;
 }
@@ -94,7 +90,6 @@ body{
 .navigationBar{
     /* complete - bar */
    
-    min-width: 1400px;
     width: 100%;
     background-color: white;
     border: 1px solid black;
@@ -121,7 +116,6 @@ body{
 }
 .navUlist{
     /* unordered-list */
-
     display: flex;
     flex-wrap: nowrap;
     list-style: none;
@@ -134,7 +128,6 @@ body{
     font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.5s;
-   
 }
 .navList:hover{
     border-bottom: 10px black;
@@ -144,7 +137,6 @@ body{
 /* ------------------------| HOME |------------------------ */
 .home{
     height: 500px;
-    min-width: 1400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/home1.jpg");
 
     background-position: center;
@@ -175,10 +167,9 @@ body{
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-
+    min-width: 1095px;
     max-width: 1600px;
     max-height: 500px;
-    min-width: 1095px;
 }
 .bd1{
     font-size: 1.5rem;
@@ -212,7 +203,6 @@ body{
 /* ------------------------| OUR GOAL |------------------------ */
 .outerGoal{
     width: 100%;
-    min-width: 1400px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -220,14 +210,11 @@ body{
 }
 .ourGoal{
     width: 85%;
-    min-width: 1150px;
-    max-width: 1920px;
     margin-top: 3rem;
     padding: 20px 25px;
     background-color: rgb(36, 45, 111);
     border: 1px solid black;
     color: white;
-
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -328,7 +315,6 @@ body{
     align-items: center;
     justify-content: space-evenly;
 
-    min-width: 1400px;
     margin: 40px;
     padding: 20px;
 }
@@ -385,7 +371,6 @@ body{
 /* ------------------------| WELCOMME TO REGEX SOFTWARE SERVICES |------------------------ */
 .welcome{
     width: 100%;
-    min-width: 1400px;
     background-color: rgb(36, 45, 111);
     color: white;
     display: flex;
@@ -394,8 +379,7 @@ body{
     justify-content: space-evenly;
 }
 .wcCont{
-    width: 650px;
-
+    width: 650px;  
 }
 .wcCont1{
     font-size: 1.9rem;
@@ -445,9 +429,6 @@ body{
     background-color:  rgb(36, 45, 111);
     color: white;
 }
-
-
-
 .wcIMG{
     /* welcome image */
     height: 450px;
@@ -461,7 +442,6 @@ body{
 
 /* ------------------------| Why Choose Us |------------------------ */
 .whyUS{
-    min-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -530,17 +510,13 @@ body{
     text-align: center;
     line-height: 1.6;
 }
-
-
 /* ------------------------| OUR MISSION |------------------------ */
 .mission{
-    min-width: 1400px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     margin: 20px 0px;
-    
 }
 .mLeft{
     /* Left */
@@ -668,7 +644,6 @@ body{
 .knowMoreIMG{ 
     /* height: 900px; */
     width: 100%;
-    min-width: 1400px;
     background-image: url("images/know_more_about_batch.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -715,7 +690,7 @@ body{
 
 /*-------------------- 2nd part --------------------  */
 .knowMore2{
-    min-width: 1400px;
+
     padding: 0px 80px;
     display: flex;
     flex-wrap: nowrap;
@@ -794,7 +769,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: end;
-
 }
 .weOfferHeading{
     font-size: 2.5rem;
@@ -834,7 +808,6 @@ body{
 
 /* ------------------------| Numbers |------------------------ */
 .numbersBG{
-    min-width: 1400px;
     background-color: white;
     position: absolute;
 }
@@ -871,7 +844,6 @@ body{
 /* ------------------------| TRAINING SERVICES |------------------------ */
 .trainServMain{
     width: 100%;
-    min-width: 1400px;
     padding: 50px 120px;
     display: flex;
     flex-wrap: nowrap;
@@ -925,18 +897,17 @@ body{
     height: 450px;
     width: 100%;
     background-image: url("images/what_we_do.webp");
+    background-repeat: no-repeat;
 }
 
 
 /* ------------------------| SHIVAM |------------------------ */
 .shivam{
     width: 100%;
-    min-width: 1400px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-
 }
 .sLeft{
     /* width: 25%; */
@@ -1005,7 +976,6 @@ body{
 
 /* -----------------------------| EXPERTS |----------------------------- */
 .exterts{
-    min-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1065,8 +1035,6 @@ body{
 }
 
 .cards1,.cards2,.cards3{
-    /* width: 85%; */
-    /* width: 700px; */
     margin: 30px 0px;
     display: flex;
     flex-wrap: nowrap;
@@ -1143,7 +1111,7 @@ body{
 /* for mohit sir */
 .cardRightM{
     width: 620px;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 10px;
 
 }
 .cardHeadingM{
@@ -1166,7 +1134,6 @@ body{
 
 /* -----------------------------| Events Gallery |----------------------------- */
 .eventsGall{
-    min-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1302,7 +1269,6 @@ body{
 /* -----------------------------| Placed Students |----------------------------- */
 .placedStudents{
     /* main div of placed students */
-    min-width: 1400px;
     background-color : rgb(246, 246, 246);
     display: flex;
     flex-wrap: wrap;
@@ -1334,12 +1300,10 @@ body{
 
 .studentSection{
     width: 85%;
-
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-
 }
 .student{
     /* individuals block of students */
@@ -1411,12 +1375,10 @@ body{
 
 /* -----------------------------| FORUM |----------------------------- */
 .touchForum{
-    min-width: 1400px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     margin: 50px 0px;
-
 }
 .touch{
     width: 42.5%;
@@ -1520,7 +1482,6 @@ textarea{
 
 /* -----------------------------| ALL LINKS |----------------------------- */
 .allLinks{
-    min-width: 1400px;
     background-color: rgb(88, 88, 88);
     padding: 20px 20px;
     display: flex;
@@ -1656,7 +1617,6 @@ textarea{
 
 /* -----------------------------| Footer |----------------------------- */
 .footer{
-    min-width: 1400px;
     padding: 0px 30px;
     background-color: rgb(54, 54, 54);
     display: flex;
@@ -1720,7 +1680,1402 @@ textarea{
 /* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
 /* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
 /* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
+/* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
+/* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
+/* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
+/* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
+/* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
 
-@media ( max-width:  ) {
+
+
+
+/* 4K ----->>  1920-3002    */
+@media ( min-width: 1920px ) and (max-width: 3002px) {
+    /* main web */
+    .mainWeb{
+        border: 1px solid black;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        z-index: 99;
+    }
+    /* ------------------------| contactBar |------------------------ */
+    .contactbar{
+        width: 100%;
+        background-color: rgb(36, 45, 111);
     
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    /* ------------------------| NavBar |------------------------ */
+    .navigationBar{
+        /* complete - bar */
+       
+        width: 100%;
+        background-color: white;
+        border: 1px solid black;
+    
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+    
+    /* ------------------------| HOME |------------------------ */
+    .home{
+        width: 100%;    
+        height: 500px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/home1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* ------------------------| OUR GOAL |------------------------ */
+    .outerGoal{
+        width: 1410px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* -----------------------| WHAT WE DO |-------------------- */
+    .wwd{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0px;
+        padding: 20px;
+    }
+    .wwdIMG{
+        height: 450px;
+        width: 450px;
+        box-shadow: 0px 0px 10px rgb(90, 90, 90);
+        margin: 0px 40px;
+    
+        background-image: url("images/what_we_do.webp");
+        background-size: 97%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .wwdCont{
+        width: 600px; 
+        margin: 0px 40px;   
+    }
+    
+    /* ------------------------| WELCOMME TO REGEX SOFTWARE SERVICES |------------------------ */
+    .welcome{
+        /* width: 1410px; */
+        width: 100%;
+        background-color: rgb(36, 45, 111);
+        color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* ------------------------| Why Choose Us |------------------------ */
+    .whyUS{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+        position: relative;
+    }
+    .whyBOX{
+        width: 100%;
+        margin: 20px 0px;
+        background-color: rgb(246, 246, 246);
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 150px;
+    }
+
+    
+    /* ------------------------| OUR MISSION |------------------------ */
+    .mission{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    
+    /* ------------------------| Know More About Our Batches |------------------------ */
+    .knowMoreIMG{ 
+        width: 100%;
+        background-image: url("images/know_more_about_batch.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .knowMore1{
+        width: 100%;
+        border: 2px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(36, 45, 111,0.8);
+    }
+    .knowMorePara{
+        /* paragraph */
+        color: white;
+        width: 1100px;
+        line-height: 1.6;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+    /*-------------------- 2nd part --------------------  */
+    .knowMore2{
+        width: 100%;
+        padding: 0px 80px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: end;
+        background-color: white;
+    }
+
+    .ourServ{
+        /* black div that overlapse */
+        width: 370px;
+        margin: 30px 0px;
+        padding: 20px 25px;
+        color: white;
+        background-color: rgba(8, 8, 8,0.8);
+        position: absolute;
+        top: 240px;
+        left: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    /* ------------------------| Numbers |------------------------ */
+    .numbersBG{
+        width: 100%;
+        background-color: white;
+        position: absolute;
+    }
+    .number{
+        /* main div */
+        width: 1100px;
+        margin: 0px 0px 0px 800px;
+        padding: 30px 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        background-color:  rgb(36, 45, 111);
+    }
+
+
+    /* ------------------------| TRAINING SERVICES |------------------------ */
+    .trainServMain{
+        width: 100%;
+        padding: 50px 120px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .trainLeft{
+        /* left wala */
+        width: 550px; 
+        margin: 0px 40px 0px 0px;
+    }
+    .trainRight{
+        width: 430px;
+        margin: 0px 0px 0px 20px;
+    }
+
+    
+    /* ------------------------| SHIVAM |------------------------ */
+    .shivam{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .sRight{
+        width: 650px;
+        margin: 0px 0px 0px 50px;
+        padding: 50px 0px;
+    }
+    
+    /* -----------------------------| EXPERTS |----------------------------- */
+    .exterts{
+        width: 52%;
+        min-width: 1410px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        background-color: rgb(246, 246, 246);
+    }
+    .allCards{
+        width: 85%;
+        min-width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        margin: 0px 0px 20px 0px;
+    }
+    
+    /* -----------------------------| Events Gallery |----------------------------- */
+    .eventsGall{
+        width: 1410px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+    }
+    
+    /* -----------------------------| Placed Students |----------------------------- */
+    .placedStudents{
+        /* main div of placed students */
+        width: 100%;
+        background-color : rgb(246, 246, 246);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0px;
+        position: relative;
+    }
+    
+    /* -----------------------------| FORUM |----------------------------- */
+    .touchForum{
+        width: 1410px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 50px 0px;
+    }
+    
+    /* -----------------------------| ALL LINKS |----------------------------- */
+    .allLinks{
+        width: 100%;
+        background-color: rgb(88, 88, 88);
+        padding: 20px 20px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .linkLogo{
+        height: 120px;
+        width: 300px;
+        background-image: url(https://www.regexsoftware.com/wp-content/uploads/2020/02/whatsapp-dp-1-e1590747617997.png);
+        background-repeat: no-repeat;
+        background-size: 90%;
+    }
+    
+
+    /* quick Links 2 */
+    .quickLinks{
+        width: 80%;
+        margin: 40px 0px 10px 0px;
+    }
+
+    /* link - 4  */
+    .addressLinks{
+        width: 85%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10px;
+        color: white;
+        margin: 0px 0px 50% 0px;
+    }
+    .locationADD,.phoneADD,.emailADD{
+        margin: 5px 0px;
+    }
+
+    /* -----------------------------| Footer |----------------------------- */
+    .footer{
+        width: 100%;
+        padding: 0px 30px;
+        background-color: rgb(54, 54, 54);
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+
+
+
+/* Laptop/ large screens ----->>  1411-1919    */
+@media ( min-width: 1411px ) and (max-width: 1919px) {
+    /* main web */
+    .mainWeb{
+        border: 1px solid black;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        z-index: 99;
+    }
+    /* ------------------------| contactBar |------------------------ */
+    .contactbar{
+        width: 100%;
+        background-color: rgb(36, 45, 111);
+    
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    /* ------------------------| NavBar |------------------------ */
+    .navigationBar{
+        /* complete - bar */
+       
+        width: 100%;
+        background-color: white;
+        border: 1px solid black;
+    
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+    
+    /* ------------------------| HOME |------------------------ */
+    .home{
+        width: 100%;    
+        height: 500px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/home1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* ------------------------| OUR GOAL |------------------------ */
+    .outerGoal{
+        width: 1410px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* -----------------------| WHAT WE DO |-------------------- */
+    .wwd{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0px;
+        padding: 20px;
+    }
+    .wwdIMG{
+        height: 450px;
+        width: 450px;
+        box-shadow: 0px 0px 10px rgb(90, 90, 90);
+        margin: 0px 40px;
+    
+        background-image: url("images/what_we_do.webp");
+        background-size: 97%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .wwdCont{
+        width: 600px; 
+        margin: 0px 40px;   
+    }
+    
+    /* ------------------------| WELCOMME TO REGEX SOFTWARE SERVICES |------------------------ */
+    .welcome{
+        /* width: 1410px; */
+        width: 100%;
+        background-color: rgb(36, 45, 111);
+        color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* ------------------------| Why Choose Us |------------------------ */
+    .whyUS{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+        position: relative;
+    }
+    .whyBOX{
+        width: 100%;
+        margin: 20px 0px;
+        background-color: rgb(246, 246, 246);
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 150px;
+    }
+
+    
+    /* ------------------------| OUR MISSION |------------------------ */
+    .mission{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    
+    /* ------------------------| Know More About Our Batches |------------------------ */
+    .knowMoreIMG{ 
+        width: 100%;
+        background-image: url("images/know_more_about_batch.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .knowMore1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(36, 45, 111,0.8);
+    }
+    .knowMorePara{
+        /* paragraph */
+        color: white;
+        width: 1100px;
+        line-height: 1.6;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+    /*-------------------- 2nd part --------------------  */
+    .knowMore2{
+        width: 100%;
+        padding: 0px 80px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: end;
+        background-color: white;
+    }
+
+    .ourServ{
+        /* black div that overlapse */
+        width: 370px;
+        margin: 30px 0px;
+        padding: 20px 25px;
+        color: white;
+        background-color: rgba(8, 8, 8,0.8);
+        position: absolute;
+        top: 240px;
+        left: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    /* ------------------------| Numbers |------------------------ */
+    .numbersBG{
+        width: 100%;
+        background-color: white;
+        position: absolute;
+    }
+    .number{
+        /* main div */
+        width: 1100px;
+        margin: 0px 0px 0px 250px;
+        padding: 30px 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        background-color:rgb(36, 45, 111);
+    }
+
+
+    /* ------------------------| TRAINING SERVICES |------------------------ */
+    .trainServMain{
+        width: 100%;
+        padding: 50px 120px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .trainLeft{
+        /* left wala */
+        width: 550px; 
+        margin: 0px 40px 0px 0px;
+    }
+    .trainRight{
+        width: 430px;
+        margin: 0px 0px 0px 20px;
+    }
+
+    
+    /* ------------------------| SHIVAM |------------------------ */
+    .shivam{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .sRight{
+        width: 650px;
+        margin: 0px 0px 0px 50px;
+        padding: 50px 0px;
+    }
+    
+    /* -----------------------------| EXPERTS |----------------------------- */
+    .exterts{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        background-color: rgb(246, 246, 246);
+    }
+    .allCards{
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        margin: 0px 0px 20px 0px;
+    }
+    
+    /* -----------------------------| Events Gallery |----------------------------- */
+    .eventsGall{
+        width: 1410px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+    }
+    
+    /* -----------------------------| Placed Students |----------------------------- */
+    .placedStudents{
+        /* main div of placed students */
+        width: 100%;
+        background-color : rgb(246, 246, 246);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0px;
+        position: relative;
+    }
+    
+    /* -----------------------------| FORUM |----------------------------- */
+    .touchForum{
+        width: 1410px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 50px 0px;
+    }
+    
+    /* -----------------------------| ALL LINKS |----------------------------- */
+    .allLinks{
+        width: 100%;
+        background-color: rgb(88, 88, 88);
+        padding: 20px 20px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .linkLogo{
+        height: 120px;
+        width: 300px;
+        background-image: url(https://www.regexsoftware.com/wp-content/uploads/2020/02/whatsapp-dp-1-e1590747617997.png);
+        background-repeat: no-repeat;
+        background-size: 90%;
+    }
+    
+
+    /* quick Links 2 */
+    .quickLinks{
+        width: 80%;
+        margin: 40px 0px 10px 0px;
+    }
+
+    /* link - 4  */
+    .addressLinks{
+        width: 85%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10px;
+        color: white;
+        margin: 0px 0px 50% 0px;
+    }
+    .locationADD,.phoneADD,.emailADD{
+        margin: 5px 0px;
+    }
+
+    /* -----------------------------| Footer |----------------------------- */
+    .footer{
+        width: 100%;
+        padding: 0px 30px;
+        background-color: rgb(54, 54, 54);
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+    
+
+
+
+
+/* laptop L ----->>  1024-1410    */
+@media ( min-width: 1024px ) and (max-width: 1410px) {
+/* main web */
+.mainWeb{
+    width: 1410px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 99;
 }
+/* ------------------------| contactbar |------------------------ */
+.contactbar{
+    width: 1410px;
+    background-color: #242d6f;
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* ------------------------| contactbar |------------------------ */
+.navigationBar{
+    /* complete - bar */
+    width: 1410px;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* ------------------------| HOME |------------------------ */
+.home{
+    width: 1410px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/home1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ------------------------| OUR GOAL |------------------------ */
+.outerGoal{
+    width: 1410px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -----------------------| WHAT WE DO |-------------------- */
+.wwd{
+    width: 1410px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+    margin: 40px 0px;
+    padding: 20px;
+}
+.wwdIMG{
+    height: 340px;
+    width: 330px;
+    box-shadow: 0px 0px 10px rgb(90, 90, 90);
+    margin: 0px 50px;
+
+    background-image: url("images/what_we_do.webp");
+    background-size: 97%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wwdCont{
+    width: 400px;    
+}
+
+/* ------------------------| WELCOMME TO REGEX SOFTWARE SERVICES |------------------------ */
+.welcome{
+    width: 1410px;
+    background-color: #242d6f;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ------------------------| Why Choose Us |------------------------ */
+.whyUS{
+    width: 1408px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+    position: relative;
+}
+
+
+/* ------------------------| OUR MISSION |------------------------ */
+.mission{
+    width: 1410px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+/* ------------------------| Know More About Our Batches |------------------------ */
+.knowMoreIMG{ 
+    width: 1410px;
+    background-image: url("images/know_more_about_batch.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*-------------------- 2nd part --------------------  */
+.knowMore2{
+    width: 1410px;
+    padding: 0px 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: end;
+    background-color: white;
+}
+
+/* ------------------------| Numbers |------------------------ */
+.numbersBG{
+    width: 1408px;
+    background-color: white;
+    position: absolute;
+}
+
+/* ------------------------| TRAINING SERVICES |------------------------ */
+.trainServMain{
+    width: 1410px;
+    width: 100%;
+    padding: 50px 120px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.trainLeft{
+    /* left wala */
+    width: 450px; 
+    margin: 0px 50px 0px 0px;
+}
+
+.trainRight{
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+}
+
+
+/* ------------------------| SHIVAM |------------------------ */
+.shivam{
+    width: 1410px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -----------------------------| EXPERTS |----------------------------- */
+.exterts{
+    width: 1410px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(246, 246, 246);
+}
+
+/* -----------------------------| Events Gallery |----------------------------- */
+.eventsGall{
+    width: 1410px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+/* -----------------------------| Placed Students |----------------------------- */
+.placedStudents{
+    /* main div of placed students */
+    width: 1410px;
+    background-color : rgb(246, 246, 246);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0px;
+    position: relative;
+}
+
+/* -----------------------------| FORUM |----------------------------- */
+.touchForum{
+    width: 1410px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+/* -----------------------------| ALL LINKS |----------------------------- */
+.allLinks{
+    width: 1410px;
+    background-color: rgb(88, 88, 88);
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* -----------------------------| Footer |----------------------------- */
+.footer{
+    width: 1410px;
+    padding: 0px 30px;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
+    
+/* laptop L ----->>  768-1023    */
+@media ( min-width: 768px ) and (max-width: 1023px) {
+    /* main web */
+    .mainWeb{
+        border: 1px solid rgb(255, 0, 0);
+        /* width: 1023px; */
+        width: 1023px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        z-index: 99;
+    }
+    /* ------------------------| contactbar |------------------------ */
+    .contactbar{
+        width: 1023px;
+        background-color: #242d6f;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .cb1{
+        font-size: 0.9rem;
+        width: 563px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        cursor: pointer;
+    }
+    .cbMail{
+        /* height: 100%; */
+        width: 20%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: start;
+        align-items: center;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .cb2{
+        width: 460px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .cb2Icons{
+        /* parent div */
+        height: 30px;
+        width: 30px;
+        background-color: rgb(65, 80, 165);
+        border: 1px solid white;
+        border-radius: 50%;
+        margin: 0px 5px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #cb2Icon{
+        /* inner 4 icons */
+        font-size: 16px;
+        color: white;
+        border-radius: 50%;
+    }    
+    /* ------------------------| NavBar |------------------------ */
+    .navigationBar{
+        /* complete - bar */
+        width: 1023px;
+        background-color: white;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .navList{
+        margin: 0px 15px;
+        padding: 5px 0px;
+        font-size: 0.8rem;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    /* ------------------------| HOME |------------------------ */
+    .home{
+        width: 1023px;
+        height: 500px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/home1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1{
+        font-size: 3rem;
+        margin-bottom: 50px;
+    }
+    .bd1{
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    .bd2{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .bd3{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    /* ------------------------| OUR GOAL |------------------------ */
+    .outerGoal{
+        width: 1023px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .ourGoal{
+        width: 85%;
+        margin-top: 3rem;
+        padding: 20px 25px;
+        background-color: rgb(36, 45, 111);
+        border: 1px solid black;
+        color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .ogHeading{
+        font-size: 1.8rem;
+        font-weight: lighter;
+        margin: 10px 5px;
+    }
+    .ogPara{
+        font-size: 0.9rem;
+        font-weight: lighter;
+        margin: 25px 5px;
+        line-height: 1.7;
+    }
+    /* -----------------------| WHAT WE DO |-------------------- */
+    .wwd{
+        width: 1023px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    
+        margin: 40px 0px;
+        padding: 20px;
+    }
+    .wwdIMG{
+        height: 340px;
+        width: 330px;
+        box-shadow: 0px 0px 10px rgb(90, 90, 90);
+        margin: 0px 50px;
+    
+        background-image: url("images/what_we_do.webp");
+        background-size: 97%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .wwdCont{
+        width: 400px;    
+    }
+    
+    /* ------------------------| WELCOMME TO REGEX SOFTWARE SERVICES |------------------------ */
+    .welcome{
+        width: 1023px;
+        background-color: #242d6f;
+        color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px 20px;
+    }
+    .wcCont{
+        width: 450px;  
+    }
+    .wcCont1{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        margin: 25px 0px;
+    }
+    .wcCont2{
+        font-size: 0.8rem;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        line-height: 1.9;
+        margin: 10px 0px;
+    }
+    .wcbtn1,.wcbtn2{
+        height: 40px;
+        width: 180px;
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0,0,0,0);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 5px;
+        margin: 15px 0px;
+        transition: all 0.3s;
+    }
+    .wcIMG{
+        /* welcome image */
+        height: 400px;
+        width: 400px;
+        background-image: url("images/weclome_to_regex.png");
+        background-size: 97%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /* ------------------------| Why Choose Us |------------------------ */
+    .whyUS{
+        width: 1023px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+        position: relative;
+    }
+    .whyBOX{
+        width: 1023px;
+        margin: 20px 0px;
+        background-color: rgb(246, 246, 246);
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 40px 60px;
+    }
+    /* ------------------------| OUR MISSION |------------------------ */
+    .mission{
+        width: 1023px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .mLeft{
+        /* TOP */
+        width: 650px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 20px 0px 0px;
+    }
+    .five{
+        /* bigger five */
+        font-size: 6rem;
+        color: rgb(111, 111, 111);
+    }
+    .experience{
+        /* 5 yrs of experience  */
+        font-size: 2rem;
+        color: rgb(111, 111, 111);
+    }
+    .ourMissionHead{
+        font-size: 2.8rem;
+        font-weight: bolder;
+        color: rgb(36, 45, 111);
+        margin: 10px 0px;
+    }
+    .ourMissionPara{
+        font-size: 1.2rem;
+        line-height: 1.65;
+        text-align: justify;
+        letter-spacing: 1px;
+        color: rgb(79, 79, 79);
+    }
+    
+    /* ------------------------| Know More About Our Batches |------------------------ */
+    .knowMoreIMG{ 
+        width: 1023px;
+        background-image: url("images/know_more_about_batch.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    /*-------------------- 2nd part --------------------  */
+    .knowMore2{
+        width: 1023px;
+        padding: 0px 80px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: end;
+        background-color: white;
+    }
+    .ourServ{
+        /* black div that overlapse */
+        width: 350px;
+        padding: 20px 15px;
+        color: white;
+        background-color: rgba(8, 8, 8,0.8);
+        position: absolute;
+        top: 300px;
+        left: 125px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* ------------------------| Numbers |------------------------ */
+    .numbersBG{
+        width: 1023px;
+        background-color: rgb(190, 39, 39);
+        position: absolute;
+    }
+    .number{
+        /* main div */
+        width: 80%;
+        margin: 0px 0px 0px 125px;
+        padding: 30px 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        background-color:  rgb(36, 45, 111);
+    }
+
+    /* ------------------------| TRAINING SERVICES |------------------------ */
+    .trainServMain{
+        width: 1023px;
+        width: 100%;
+        padding: 50px 130px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .trainLeft{
+        /* left wala */
+        width: 450px; 
+        margin: 0px 50px 0px 0px;
+    }
+    .trainRight{
+        width: 400px;
+        height: auto;
+        border: 1px solid black;
+    }
+    /* ------------------------| SHIVAM |------------------------ */
+    .shivam{
+        width: 1023px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .sLeft{
+        /* width: 25%; */
+        margin: 0px 10px 0px 80px;
+    }
+    .sName{
+        font-size: 2em;
+        color: rgb(36, 45, 111);
+        margin: 15px 0px 0px 0px;
+    }
+    .sRole{
+        color: rgb(161, 161, 161);
+        font-family: 'Times New Roman', Times, serif;
+        margin: 10px 0px 30px 0px;
+    }
+    .sKnowMoreBTN{
+        font-size: 1rem;
+        height: 45px; width: 150px;
+        color: white;
+        background-color: rgb(36, 45, 111);
+        border: none;
+        border-radius: 3px; 
+        transition: all 0.4s;
+        margin: 10px 0px;
+    }
+    /* -----------------------------| EXPERTS |----------------------------- */
+    .exterts{
+        width: 1023px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        background-color: rgb(246, 246, 246);
+    }
+    .eh1::after{
+        content: '';
+        width: 35%;
+        border-bottom: 1px dotted rgb(36, 45, 111);
+        position: absolute;
+        left: 40%;
+        top: 50%;
+        z-index: 1;
+    }
+    .allCards{
+        width: 1023px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        margin: 0px 0px 20px 0px;
+    }
+    .cards2{
+        background-color: rgb(255, 255, 255);
+        margin: 0px 0px 0px 0px;
+    }
+    
+    /* -----------------------------| Events Gallery |----------------------------- */
+    .eventsGall{
+        width: 1023px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+    }
+    
+    /* -----------------------------| Placed Students |----------------------------- */
+    .placedStudents{
+        /* main div of placed students */
+        width: 1023px;
+        background-color : rgb(246, 246, 246);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0px;
+        position: relative;
+    }
+    .studentSection{
+        width: 1023px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .student{
+        /* individuals block of students */
+        padding: 15px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .stPhoto1,.stPhoto2,.stPhoto3,.stPhoto4,.stPhoto5{
+        height: 130px;
+        width: 130px;
+        margin: 12px 20px;
+    }
+    .stRole{
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: rgba(0, 0, 255,0.8);
+        margin: 10px 0px px 0px;
+    }
+    /* -----------------------------| FORUM |----------------------------- */
+    .touchForum{
+        width: 1023px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 50px 0px;
+    }
+    
+    /* -----------------------------| ALL LINKS |----------------------------- */
+    .allLinks{
+        width: 1023px;
+        background-color: rgb(88, 88, 88);
+        padding: 20px 20px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    /* -----------------------------| Footer |----------------------------- */
+    .footer{
+        width: 1023px;
+        padding: 0px 30px;
+        background-color: rgb(54, 54, 54);
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    }
