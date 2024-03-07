@@ -9,14 +9,18 @@ html{
 }
 body{
     height: 100vh;
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
 }
+/* main - web */
+.mainWeb{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 /* ------------------------| contactbar |------------------------ */
 .contactbar{
-    min-width: 1052px;
+    min-width: auto;
     background-color: rgb(18, 37, 143);
 
     display: flex;
@@ -90,7 +94,7 @@ body{
 .navigationBar{
     /* complete - bar */
    
-    min-width: 1052px;
+    min-width: 1400px;
     width: 100%;
     background-color: white;
     border: 1px solid black;
@@ -140,7 +144,7 @@ body{
 /* ------------------------| HOME |------------------------ */
 .home{
     height: 500px;
-    min-width: 1052px;
+    min-width: 1400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/home1.jpg");
 
     background-position: center;
@@ -206,10 +210,18 @@ body{
 }
 
 /* ------------------------| OUR GOAL |------------------------ */
+.outerGoal{
+    width: 100%;
+    min-width: 1400px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
 .ourGoal{
     width: 85%;
+    min-width: 1150px;
     max-width: 1920px;
-    margin: auto;
     margin-top: 3rem;
     padding: 20px 25px;
     background-color: rgb(36, 45, 111);
@@ -316,6 +328,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
 
+    min-width: 1400px;
     margin: 40px;
     padding: 20px;
 }
@@ -372,6 +385,7 @@ body{
 /* ------------------------| WELCOMME TO REGEX SOFTWARE SERVICES |------------------------ */
 .welcome{
     width: 100%;
+    min-width: 1400px;
     background-color: rgb(36, 45, 111);
     color: white;
     display: flex;
@@ -447,6 +461,7 @@ body{
 
 /* ------------------------| Why Choose Us |------------------------ */
 .whyUS{
+    min-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -519,6 +534,7 @@ body{
 
 /* ------------------------| OUR MISSION |------------------------ */
 .mission{
+    min-width: 1400px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -652,6 +668,7 @@ body{
 .knowMoreIMG{ 
     /* height: 900px; */
     width: 100%;
+    min-width: 1400px;
     background-image: url("images/know_more_about_batch.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -698,6 +715,7 @@ body{
 
 /*-------------------- 2nd part --------------------  */
 .knowMore2{
+    min-width: 1400px;
     padding: 0px 80px;
     display: flex;
     flex-wrap: nowrap;
@@ -816,7 +834,9 @@ body{
 
 /* ------------------------| Numbers |------------------------ */
 .numbersBG{
+    min-width: 1400px;
     background-color: white;
+    position: absolute;
 }
 .number{
     /* main div */
@@ -851,6 +871,7 @@ body{
 /* ------------------------| TRAINING SERVICES |------------------------ */
 .trainServMain{
     width: 100%;
+    min-width: 1400px;
     padding: 50px 120px;
     display: flex;
     flex-wrap: nowrap;
@@ -910,6 +931,7 @@ body{
 /* ------------------------| SHIVAM |------------------------ */
 .shivam{
     width: 100%;
+    min-width: 1400px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -983,6 +1005,7 @@ body{
 
 /* -----------------------------| EXPERTS |----------------------------- */
 .exterts{
+    min-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1143,6 +1166,7 @@ body{
 
 /* -----------------------------| Events Gallery |----------------------------- */
 .eventsGall{
+    min-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1278,6 +1302,7 @@ body{
 /* -----------------------------| Placed Students |----------------------------- */
 .placedStudents{
     /* main div of placed students */
+    min-width: 1400px;
     background-color : rgb(246, 246, 246);
     display: flex;
     flex-wrap: wrap;
@@ -1386,6 +1411,7 @@ body{
 
 /* -----------------------------| FORUM |----------------------------- */
 .touchForum{
+    min-width: 1400px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -1494,7 +1520,7 @@ textarea{
 
 /* -----------------------------| ALL LINKS |----------------------------- */
 .allLinks{
-    border: 1px solid black;
+    min-width: 1400px;
     background-color: rgb(88, 88, 88);
     padding: 20px 20px;
     display: flex;
@@ -1630,6 +1656,7 @@ textarea{
 
 /* -----------------------------| Footer |----------------------------- */
 .footer{
+    min-width: 1400px;
     padding: 0px 30px;
     background-color: rgb(54, 54, 54);
     display: flex;
@@ -1686,4 +1713,14 @@ textarea{
     color: white;
     border-radius: 100%;
     background-color: black;
+}
+
+/* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
+/* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
+/* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
+/* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
+/* -----------------------------------|| MEDIA QUERY ||----------------------------------- */
+
+@media ( max-width:  ) {
+    
 }
