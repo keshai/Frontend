@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.container{
+    height: 700px;
+    display: grid;
+    /* for columns */
+    grid-template-columns: 1fr 2fr 3fr;
+    /* for rows */
+    grid-template-rows: 1fr;
+
+}
+.box{
+    /* height: 300px; */
+    margin: 1px;
+    background-color: red;
+}
