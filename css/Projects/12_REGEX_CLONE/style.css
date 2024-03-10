@@ -3747,6 +3747,7 @@ textarea{
     /* main web */
     .mainWeb{
         width: 425px;
+        min-width: 320px;
     }
     /* ------------------------| contactbar |------------------------ */
     .contactbar{
