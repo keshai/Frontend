@@ -1,0 +1,57 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.0233af36a62f10689e987c01518af4ca?rik=ivWe3y9OnZLHCg&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-5%2fNature-Photoshop-Background-Best-Wallpaper-16407.jpeg&ehk=sEG34%2f61A9yWr9UeVRYz0X%2bA6U5imLcNQmAGhy2UZ4g%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slidebar{
+    width: 350px;
+    height: 100vh;
+    background-color: rgba(187, 187, 187, 0.1);
+    box-shadow: 0px 0px 6px rgba(255, 255, 255,0.7);
+    position: fixed;
+    top: 0px;
+    left: -400px;
+
+}
+
+input{
+    color: white;
+    position: absolute;
+    /* display: none; */
+}
+#slide{
+    display: none;
+}
+
+.fa-bars, .fa-x{
+    color: white;
+    font-size: 35px;
+    margin: 10px 20px;
+    transition-duration: 0.2s;
+    position: absolute;
+    
+}
+.fa-bars{
+    z-index: 2;
+}
+.fa-x{
+    position: absolute;
+    left: 250px;
+    z-index: 1;
+    opacity: 0;
+}
+
+i:hover{
+    color: white;
+    font-size: 40px;
+    margin: 10px 20px;
+}
+
+#slide:checked ~ .slidebar{
+    left: 0px;
+}
+#slide:checked ~ .label2 .fa-x{
+    opacity: 1;
+}
