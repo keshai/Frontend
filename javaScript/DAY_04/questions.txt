@@ -1,0 +1,3 @@
+how many types of loops in js ?
+diff bet while and do-while ?
+diff bet for and while ?

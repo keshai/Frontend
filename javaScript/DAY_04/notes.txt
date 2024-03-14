@@ -1,0 +1,13 @@
+loops -> entry cantrol loop, exit cantrol loop
+entry -> for , while -> 
+    In an entry-controlled loop, the condition is checked at the beginning (entry point) before executing the loop body.
+    If the condition is true, the loop body is executed.
+    Examples of entry-controlled loops include the while loop and the for loop.
+exit -> do-while ->
+    In an exit-controlled loop, the loop body is executed first, and then the condition is checked at the end (exit point).
+    If the condition is true, the loop continues to the next iteration.
+    Examples of exit-controlled loops include the do-while loop.
+    atleast ek baar execute hoga hi.
+
+
+parseInt -> double to iteration
