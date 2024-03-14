@@ -11,3 +11,6 @@ exit -> do-while ->
 
 
 parseInt -> double to iteration
+
+for practice javaScript : ->>
+https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php

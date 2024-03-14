@@ -1,3 +1,4 @@
 how many types of loops in js ?
+why we need loops in programming lang ?
 diff bet while and do-while ?
 diff bet for and while ?
