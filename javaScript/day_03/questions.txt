@@ -1,0 +1,59 @@
+1. What is programming and why we need this ?
+2. Difference between commpilor and interpreter ?
+3. JS developed by and when ?
+4. what is js and advantages and disadvantages of js and why we need js ?
+5. why we call js is server side lang ? 
+6. Difference between let,var,const and why we need these in js ?
+7. how many types of datatypes in js ?
+
+
+answers -->>
+Q1. What is programming and why we need this ?
+-> Programming is like giving a set of instructions to a computer to make it do things for us. It’s like teaching the computer a new trick. We need programming because it helps us tell computers how to work faster and smarter, making our lives easier by doing tasks, solving problems.
+
+Q2. Difference between commpilor and interpreter ?
+-> A compiler is like a translator who reads the complete program and then translates it all at once, into machine code. This means the computer can read the whole translated code without the translator’s help.
+An interpreter, on the other hand, is like a live translator who translates each sentence one by one. The computer needs the interpreter every time it wants to understand and run the program.
+So, a compiler translates all the code at once, while an interpreter translates the code as it’s being run, step by step. Compilers are used for languages like C++,java and interpreters are used for languages like javaScript,Python.
+
+Q3. JS developed by and when ?
+-> JavaScript was developed by `Brendan Eich in May 1995`. Initially named Mocha, then LiveScript then JavaScript. It was created for browser to add interactive features to websites.
+
+Q4. what is js and advantages and disadvantages of js and why we need js ?
+-> JavaScript is a versatile programming language primarily used for creating interactive web pages. It runs on the user’s browser, making web applications faster as it reduces server load.
+Advantages:
+    Speed: Executes on the client side, leading to quick response times.
+    Simplicity: Easy to learn and use, with a syntax similar to English.
+    Interactivity: Enables dynamic content like games and response forms.
+Disadvantages:
+    Code Visibility: The code is visible to users, which may lead to security issues.
+    Browser Dependency: Different browsers may interpret JavaScript differently.
+    Single Inheritance: Only supports single inheritance, which can limit object-oriented programming models.
+
+Q5. why we call js is server side lang ? And why we need JavaScript ?
+-> JavaScript is often called a server-side language because it can be used on servers to build and manage websites, just like it’s used in browsers to make web pages interactive. With tools like Node.js, JavaScript can handle tasks like talking to databases and managing web traffic, which are usually done by the server. So, while it started as a language for browsers, it’s now also a big deal on the server side.
+-> We need JavaScript because it’s like the magic wand for websites. It makes web pages come to life by adding interactive actions like clicking buttons, playing games, and filling out forms. Without JavaScript, websites would be like a book with only text and pictures—no fun activities or animations.
+
+Q6. Difference between let,var,const and why we need these in js ?
+var :
+    Scope: Variables declared with var are function-scoped or globally scoped.
+    Hoisting: var variables are hoisted, meaning they can be accessed before they are declared.
+    Reassignment and Redefinition: They can be updated and re-declared within their scope.
+let:
+    Scope: Variables declared with let have block scope (limited to the enclosing code block).
+    Hoisting: let variables are not hoisted.
+    Reassignment and Redefinition: They can be updated but not re-declared in the same scope.
+const:
+    Scope: Variables declared with const also have block scope.
+    Hoisting: const variables are not hoisted.
+    Reassignment and Redefinition: They cannot be updated or re-declared after initialization.
+
+Q7. how many types of datatypes in js ?
+->  String
+    Number
+    BigInt
+    Boolean
+    Undefined
+    Null
+    Symbol
+    Object
