@@ -1,0 +1,8 @@
+Functions
+three types -> naming -> jinka naam hota hai -> with name and with funct name
+            -> anomynous - > jinka naam nhi hota -> use in callback (), hooks -> only func name
+            -> arrow -> syntax ' => ' -> very usefull -> complex function 15 lines ko 2-4 lines me end kar dega
+
+
+
+expression ->> func ko var me store karte hai to vo func ka expression kahlata hai

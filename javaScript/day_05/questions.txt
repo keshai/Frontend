@@ -1,0 +1,11 @@
+what is function and why we need func in programming ?
+how many types of func in javsScript ?
+differ betw naming func and annomynous func ?
+argument vs parameter ?
+why we need return keyword in func ?
+how many value return from 1, one func ?
+how many type of func in programming ?
+what is clooser and why we need this ??
+
+intro
+name,previous-graduation,living, domain-webdeveloper,skills,projects,hobbies,straingth,weekness,opt->family
