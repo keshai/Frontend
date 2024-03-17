@@ -5,7 +5,7 @@ argument vs parameter ?
 why we need return keyword in func ?
 how many value return from 1, one func ?
 how many type of func in programming ?
-what is clooser and why we need this ?
+what is  Closure and why we need this ?
 
 intro
 name,previous-graduation,living, domain-webdeveloper,skills,projects,hobbies,straingth,weekness,opt->family
@@ -13,3 +13,78 @@ name,previous-graduation,living, domain-webdeveloper,skills,projects,hobbies,str
 
 Answer -->>
 Q1. what is function and why we need func in programming ?
+-> What is a Function?
+    A function is a self-contained block of code that performs a specific task or operation.
+    It has a name, can take input parameters, and may return a value.
+    Functions allow you to encapsulate logic and reuse it throughout your program.
+
+-> Why Do We Need Functions?
+    Modularity:
+        Functions break down a large program into smaller, manageable pieces (modules).
+        Each function focuses on a specific task, making code easier to understand and maintain.
+    Code Reusability:
+        Once you define a function, you can call it multiple times from different parts of your program.
+        No need to duplicate code; just reuse the function.
+
+Q2. how many types of func in javsScript ?
+three types -> naming -> jinka naam hota hai -> with name and with funct name
+            -> anomynous - > jinka naam nhi hota -> use in callback (), hooks -> only func name
+            -> arrow -> syntax ' => ' -> very usefull -> complex function 15 lines ko 2-4 lines me end kar dega.
+->Named Functions:
+    Definition:
+        Named functions have a specific name or identifier.
+        You declare them using the function keyword followed by a name. 
+    Usage:
+        Named functions are useful when you want to reference the function multiple times in your code.
+        They can be called by their name and reused throughout your program.
+
+->Anonymous Functions:
+    Definition:
+        Anonymous functions do not have a name.
+        They are declared without an identifier.
+    Usage:
+        Often used as callbacks or event handlers.
+        Stored in variables or passed directly as arguments to other functions.
+    
+-> Arrow Functions:
+    Definition:
+        Arrow functions are always anonymous (they don’t have a name).
+        You declare them using the “fat arrow” syntax (=>).
+    Usage:
+        Often used for concise one-liners or as callbacks.
+        Useful when you want to keep the code compact.
+
+
+Q3. differ betw naming func and annomynous func ?
+-> previous question me hai bhai.
+
+Q4. argument vs parameter ?
+-> Parameters:
+    Definition:
+        Parameters are placeholders or variables defined in the function declaration or definition.
+        They act as input slots for values that the function expects.
+    Usage:
+        Parameters are used within the function body to perform operations.
+        They represent the expected data that the function will work with.
+-> Arguments:
+    Definition:
+        Arguments are the actual values passed to a function when it is called.
+        They fill in the placeholders (parameters) defined in the function.
+    Usage:
+        Arguments are provided during the function call.
+        They supply the specific data that the function will process.
+-> In summary:
+        Parameters are part of the function definition.
+        Arguments are part of the function call.
+        Remember, parameters define what a function expects, and arguments provide the actual data! 
+
+Q5. why we need return keyword in func ?
+ -> When a function encounters a return statement, it immediately exits.
+    This helps control the flow of execution.
+
+q6. how many value return from 1, one func ?
+
+Q7. how many type of func in programming ?
+
+Q8. what is  Closure and why we need this ?
+
