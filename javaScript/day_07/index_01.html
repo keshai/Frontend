@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <input type="text" name="" class="name1">
+    <button class="btn">guess name?</button>
+    <h1 class="h1"></h1>
+    <script>
+            document.getElementsByClassName('btn')[0].onclick=function(){
+                let a = document.getElementsByClassName('name1')[0].value;
+                // console.log(a)
+                if(a =='mohit'){
+                    document.getElementsByClassName('h1')[0].innerHTML='mohit sir radhe radhe';
+                }
+                else{
+                    document.getElementsByClassName('h1')[0].innerHTML='bhai apka naam?';
+                }
+
+            }
+    </script>
+</body>
+</html>

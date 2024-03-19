@@ -1,0 +1,6 @@
+jab bhi getElementByClassName use karo to class ke name ko define karne ke baad ' [0] ' ye jarur karna.
+
+for of loop -> for(let i of a){ console.log(i); } / i.value
+
+for in loop -> for(let i in a){ console.log(a[i]); }
+
