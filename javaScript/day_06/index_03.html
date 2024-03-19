@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" name="" placeholder="Enter 1st Number" id="n1">
+        <input type="text" name="" placeholder="Enter 2nd Number" id="n2">
+        <select name="" id="select">
+            <option value="" id="choose">Choose</option>
+            <option value="plus" id="plus">+</option>
+            <option value="min" id="min">-</option>
+            <option value="mul" id="mul">*</option>
+            <option value="div" id="div">/</option>
+        </select>
+        <h1 id="h"></h1>
+
+        <script>
+            document.getElementById('select').onchange = function() {
+                let a = Number(document.getElementById('n1').value);
+                let b = Number(document.getElementById('n2').value);
+                let operator = document.getElementById('select').value;
+                let result;
+                switch (operator) {
+                    case 'plus':
+                        result = a + b;
+                        break;
+                    case 'min':
+                        result = a - b;
+                        break;
+                    case 'mul':
+                        result = a * b;
+                        break;
+                    case 'div':
+                        result = a / b;
+                        break;
+                    default:
+                        result = 'Choose an operation';
+                }
+                document.getElementById("h").innerHTML = `Answer is: ${result}`;
+            };
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+DOM -> document object module
+selectors -> id,class,
+            -> access id -> document.getById('btn').onClick=function(){
+                console.log('hello')
+            }
+            -> string to num -->> Number(doc..)
+            -> backTicks ->> ` keshav ${a+b} `;
