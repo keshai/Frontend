@@ -28,6 +28,12 @@
         #select:hover{
             box-shadow: 0px 0px 2px black;
         }
+        #para{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+        }
 
         /* mid colors */
         .colors{
@@ -104,17 +110,41 @@
 
         <!-- ----------| Text Decoration |---------- -->
         <div class="txtDecoDIV">
-            <button class="txtDeco" id="upr">Upper Case</button>
-            <button class="txtDeco" id="lwr">Lower Case</button>
-            <button class="txtDeco" id="plus">Size Large</button>
-            <button class="txtDeco" id="min">Size Small</button>
+            <button class="txtDeco" value="upr">Upper Case</button>
+            <button class="txtDeco" value="lwr">Lower Case</button>
+            <button class="txtDeco" value="plus">Size Large</button>
+            <button class="txtDeco" value="min">Size Small</button>
         </div>
     </div>
+
+    
     <script>
         // choose domain
         document.getElementById('select').onchange= function(){
-            
-        }
+            let isthis = document.getElementById('select').onchange;
+            let domain;
+            switch (isthis){
+                case 'react':
+                    domain.innerText ="Developed by Facebook in 2011, React has quickly become one of the most widely used JavaScript libraries. According to HackerRank, 30% of employers look for developers who know React but only about half of the applicants actually have the required knowledge. React is an efficient and flexible JavaScript library for building user interfaces (and React itself is written using JavaScript). It breaks down complex UIs into small, isolated code called “components”. By using these components, React only concerns itself with what you see on the front page of a website. ";
+                    break;
+                
+                case 'jango':
+                    domain.innerText ="Developed by Facebook in 2011, React has quickly become one of the most widely used JavaScript libraries. According to HackerRank, 30% of employers look for developers who know React but only about half of the applicants actually have the required knowledge. React is an efficient and flexible JavaScript library for building user interfaces (and React itself is written using JavaScript). It breaks down complex UIs into small, isolated code called “components”. By using these components, React only concerns itself with what you see on the front page of a website. ";
+                    break;
+                
+                case 'angu':
+                    domain.innerText ="Developed by Facebook in 2011, React has quickly become one of the most widely used JavaScript libraries. According to HackerRank, 30% of employers look for developers who know React but only about half of the applicants actually have the required knowledge. React is an efficient and flexible JavaScript library for building user interfaces (and React itself is written using JavaScript). It breaks down complex UIs into small, isolated code called “components”. By using these components, React only concerns itself with what you see on the front page of a website. ";
+                    break;
+
+                case 'aws':
+                    domain.innerText ="Developed by Facebook in 2011, React has quickly become one of the most widely used JavaScript libraries. According to HackerRank, 30% of employers look for developers who know React but only about half of the applicants actually have the required knowledge. React is an efficient and flexible JavaScript library for building user interfaces (and React itself is written using JavaScript). It breaks down complex UIs into small, isolated code called “components”. By using these components, React only concerns itself with what you see on the front page of a website. ";
+                    break;
+                
+                default:
+                    domain= "Choose a domain";
+            }
+                document.getElementById('para').innerText= `${domain}`;
+        }   
         // background color
         document.getElementById('yel').onclick=function(){
             document.body.style.backgroundColor='rgb(255, 255, 126)';
