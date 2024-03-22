@@ -92,10 +92,10 @@
         <!-- ----------| Select |---------- -->
         <select name="" id="select">
             <option value="" id="choose"> Make a choice </option>
-            <option value="" id="react">React</option>
-            <option value="" id="jango">Django</option>
-            <option value="" id="angu">Angular</option>
-            <option value="" id="aws">AWS</option>
+            <option value="react" id="react">React</option>
+            <option value="jango" id="jango">Django</option>
+            <option value="angu" id="angu">Angular</option>
+            <option value="aws" id="aws">AWS</option>
         </select>
         <p id="para"></p>
 
@@ -110,40 +110,36 @@
 
         <!-- ----------| Text Decoration |---------- -->
         <div class="txtDecoDIV">
-            <button class="txtDeco" value="upr">Upper Case</button>
-            <button class="txtDeco" value="lwr">Lower Case</button>
-            <button class="txtDeco" value="plus">Size Large</button>
-            <button class="txtDeco" value="min">Size Small</button>
+            <button class="txtDeco" id="upr" value="upr">Upper Case</button>
+            <button class="txtDeco" id="lwr" value="lwr">Lower Case</button>
+            <button class="txtDeco" id="plus" value="plus">Size Large</button>
+            <button class="txtDeco" id="min" value="min">Size Small</button>
         </div>
     </div>
 
     
     <script>
         // choose domain
-        document.getElementById('select').onchange= function(){
-            let isthis = document.getElementById('select').onchange;
-            let domain;
-            switch (isthis){
-                case 'react':
-                    domain.innerText ="Developed by Facebook in 2011, React has quickly become one of the most widely used JavaScript libraries. According to HackerRank, 30% of employers look for developers who know React but only about half of the applicants actually have the required knowledge. React is an efficient and flexible JavaScript library for building user interfaces (and React itself is written using JavaScript). It breaks down complex UIs into small, isolated code called “components”. By using these components, React only concerns itself with what you see on the front page of a website. ";
-                    break;
-                
-                case 'jango':
-                    domain.innerText ="Developed by Facebook in 2011, React has quickly become one of the most widely used JavaScript libraries. According to HackerRank, 30% of employers look for developers who know React but only about half of the applicants actually have the required knowledge. React is an efficient and flexible JavaScript library for building user interfaces (and React itself is written using JavaScript). It breaks down complex UIs into small, isolated code called “components”. By using these components, React only concerns itself with what you see on the front page of a website. ";
-                    break;
-                
-                case 'angu':
-                    domain.innerText ="Developed by Facebook in 2011, React has quickly become one of the most widely used JavaScript libraries. According to HackerRank, 30% of employers look for developers who know React but only about half of the applicants actually have the required knowledge. React is an efficient and flexible JavaScript library for building user interfaces (and React itself is written using JavaScript). It breaks down complex UIs into small, isolated code called “components”. By using these components, React only concerns itself with what you see on the front page of a website. ";
-                    break;
-
-                case 'aws':
-                    domain.innerText ="Developed by Facebook in 2011, React has quickly become one of the most widely used JavaScript libraries. According to HackerRank, 30% of employers look for developers who know React but only about half of the applicants actually have the required knowledge. React is an efficient and flexible JavaScript library for building user interfaces (and React itself is written using JavaScript). It breaks down complex UIs into small, isolated code called “components”. By using these components, React only concerns itself with what you see on the front page of a website. ";
-                    break;
-                
-                default:
-                    domain= "Choose a domain";
+        document.getElementById('select').onclick= function(){
+            const isthis = document.getElementById('select').value;
+            let domReact = 'React, also known as React.js, is an open-source JavaScript library for building user interfaces, particularly single-page applications where you need a fast, interactive user experience. Developed by Facebook and maintained by a community of developers, React allows developers to create large web applications that can change data without reloading the page.The core concept of React is the component, self-contained modules that encapsulate rendering logic and state management. This modular approach makes it easier to manage and scale complex applications. React uses JSX, a syntax extension that allows you to write HTML structures in the same file as JavaScript code. This improves the development process and boosts productivity.';
+            if(isthis=="react"){
+                document.getElementById("para").innerHTML = `${domReact}`;
+                document.getElementById('para').style.padding='5px 10px'
             }
-                document.getElementById('para').innerText= `${domain}`;
+            else if(isthis=="jango"){
+                document.getElementById("para").innerHTML = `${domReact}`;
+                document.getElementById('para').style.padding='5px 10px'
+            }
+            else if(isthis=="angu"){
+                document.getElementById("para").innerHTML = `${domReact}`;
+                document.getElementById('para').style.padding='5px 10px'
+            }
+            else if(isthis=="aws"){
+                document.getElementById("para").innerHTML = `${domReact}`;
+                document.getElementById('para').style.padding='5px 10px'
+            }
+
         }   
         // background color
         document.getElementById('yel').onclick=function(){
@@ -168,9 +164,13 @@
             let h1Ele = document.getElementsByClassName('h1');
             for (let h1 of h1Ele) {
                 h1.style.color = 'white';
+                para.style.color= 'white'
             }
         
         //  text - decoration 
+        document.getElementById("upr").onclick = function(){
+               
+        }
 
 };
       
