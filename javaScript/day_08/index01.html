@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style01.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inner-cont1">
+            <input type="text" placeholder="enter any color  " id="display">
+                <select  id="div">
+                <!-- <option value="">Select a Div</option> -->
+                    <option value="1">Div1</option>
+                    <option value="2">Div2</option>
+                    <option value="3">Div3</option>
+                    <option value="4">Div4</option>
+                    <option value="5">Div5</option>
+                    <option value="6">Div6</option>
+                    <option value="7">Div7</option>
+                    <option value="8">Div8</option>
+                    <option value="9">div9</option>
+                    <option value="10">div10</option>
+
+                </select>
+                <button class="btn"  id="submit">submit</button>
+        </div>
+        <div class="inner-cont2">
+            <div class="one" id="div1"></div>
+            <div class="one" id="div2"></div>
+            <div class="one" id="div3"></div>
+            <div class="one" id="div4"></div>
+            <div class="one" id="div5"></div>
+            <div class="one" id="div6"></div>
+            <div class="one" id="div7"></div>
+            <div class="one" id="div8"></div>
+        </div>
+    </div>
+    <script>
+        
+
+  document.getElementById("submit").onclick=function(){
+    let a = document.getElementById("div").value;
+    let b = document.getElementById("display").value;
+    if (a === '1'){
+        document.getElementById("div1").style.backgroundColor = b;
+    }
+
+    else if( a == '2' ){
+        document.getElementById("div2").style.backgroundColor = b;
+
+    }
+    else if( a == '3' ){
+        document.getElementById("div3").style.backgroundColor = b;
+
+    }
+    else if( a == '4' ){
+        document.getElementById("div4").style.backgroundColor = b;
+
+    }
+    else if( a == '5' ){
+        document.getElementById("div5").style.backgroundColor = b;
+
+    }
+    else if( a == '6' ){
+        document.getElementById("div6").style.backgroundColor = b;
+
+    }
+    else if( a == '7' ){
+        document.getElementById("div7").style.backgroundColor = b;
+
+    }
+    else if( a == '8' ){
+        document.getElementById("div8").style.backgroundColor = b;
+
+    }
+    else{
+        alert("you can select upto 8");
+    }
+
+   }
+    </script>
+</body>
+</html>

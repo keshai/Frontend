@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+
+        <script>
+            // wap for armstrong number 
+            // wap chack given number is strong numer or not using arrow function
+            // wap to print fibonacci serien using anno. function.
+            
+            
+            // 1.) Armstrong Number->
+            let num = prompt("enter a num: ")
+            let sum = 0;
+            var temp = num;
+            while(temp>0){
+                let remainder = temp % 10;
+                sum += remainder*remainder*remainder;
+                temp = Number(temp/10);
+            }
+            if(sum ==num){
+                alert(`${num} is armstrong`)
+            }
+            else{
+                alert(`${num} not armstrong`)
+                
+            }
+
+
+            // 2.) wap chack given number is strong numer or not using arrow function
+                    // let num = prompt("enter a number :")
+
+
+
+
+            // 3.) wap to print fibonacci serien using anno. function.
+                // let num = Number(prompt("enter a number : "));
+                // let num1=0,num2=1,next;
+
+                // console.log("series is : ")
+                // for(let i =0; i<=num; i++){
+                //     console.log(num1)
+                //     next = num1+num2;
+                //     num1 = num2;
+                //     num2 = next;
+                // }
+
+        </script>
+</body>
+</html>
