@@ -7,22 +7,32 @@
 </head>
 <body>
     <input type="text" name="" id="">
-    <button>Submit</button>
+    <button id="submit">Submit</button>
+    <button id="pop">pop</button>
 
     <script>
         let arr = [];
 
-        let a = document.querySelector("button");
+        let a = document.querySelector("#submit");
         a.addEventListener("click", ()=>{
             let val = document.querySelector("input").value;
             arr.push(val);
             console.log(arr);
             document.querySelector("input").value = "";
             document.querySelector("input").focus();
-
-            // let c = document.createElement("p").innerHTML = `${val}`
-            // document.append(c);
         })
+        let b = document.querySelector("#pop");
+        b.addEventListener("click",()=>{
+            let val = document.querySelector("input").value;
+            arr.pop();
+            console.log(arr);
+          
+                if(arr.length == 0){
+                    alert("bas kar bhaii,")
+                }
+
+        })
+
     </script>
 </body>
 </html>
