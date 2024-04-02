@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="">
+    <button>Submit</button>
+
+    <script>
+        let arr = [];
+
+        let a = document.querySelector("button");
+        a.addEventListener("click", ()=>{
+            let val = document.querySelector("input").value;
+            arr.push(val);
+            console.log(arr);
+            document.querySelector("input").value = "";
+            document.querySelector("input").focus();
+
+            // let c = document.createElement("p").innerHTML = `${val}`
+            // document.append(c);
+        })
+    </script>
+</body>
+</html>
