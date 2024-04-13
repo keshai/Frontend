@@ -1,0 +1,27 @@
+<!-- Write a Arrow function that takes a string as input and returns true
+if it's a palindrome (reads the same forwards and backwards), false
+otherwise. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let inpt = prompt("Enter Strings : ")
+        console.log(inpt);
+
+        let isPalindrome = (i) => {
+        let lc = i.toLowerCase();
+        return lc === lc.split('').reverse().join('');
+};
+
+    console.log(isPalindrome(inpt));
+
+
+
+    </script>
+</body>
+</html>
