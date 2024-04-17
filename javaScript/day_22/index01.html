@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let my_api = fetch('https://dummyjson.com/uers')
+        my_api.then((res)=> res.json().then((data)=> data.users.map((i)=>{console.log(i.id,i.age,i.firstName,i.lastName)} )))
+
+        .catch((er)=> console.error(" Error!!  something wrong brodaa"))
+                // data.users.map((item)=>{
+                //     console.log(item.id,item.firstName)
+                // })
+
+        // let a = 5; let b = 6; let c = a+b
+        // console.log(a,b,c)
+    </script>
+</body>
+
+</html>
