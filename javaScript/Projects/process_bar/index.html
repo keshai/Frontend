@@ -1,0 +1,62 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(81, 81, 81);
+        }
+        .wrapper {
+            width: 100px; /* Set the size of the progress bar */
+            height: 100px;
+            position: relative;
+            overflow: hidden; /* Enable clipping */
+        }
+
+        .circle {
+            width: 80px;
+            height: 80px;
+            border: 10px solid green;
+            border-radius: 50%;
+            position: absolute;
+            clip: rect(0px, 50px, 100px, 0px);
+            transform-origin: center;
+        }
+
+        /* Animation settings */
+        .circle[data-anim="left"] {
+            animation: left-spin 6s linear forwards;
+        }
+
+        .circle[data-anim="right"] {
+            animation: right-spin 3s linear forwards;
+        }
+
+        @keyframes left-spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(180deg);
+            }
+        }
+
+        @keyframes right-spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="circle" data-anim="left"></div>
+        <div class="circle" data-anim="right"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
