@@ -8,12 +8,37 @@
 <body>
     <script>
         let my_api = fetch('https://dummyjson.com/products')
-        my_api.then((response)=>{ response.json().then((item)=>{ item.products.map((nm)=>{})
+        my_api.then((response)=>{ response.json().then((item)=>{ item.products.map((nm)=>{
+            console.log(nm)
             let div = document.createElement('div')
-            let img = document.createElement('div')
-            let title = document.createElement('div')
+            let img = document.createElement('img')
+            let brand = document.createElement('h2')
+            let disc = document.createElement('p')
+            let price = document.createElement('h4')
+            let rating = document.createElement('h4')
+            let title = document.createElement('h2')
+            
+            img.src =nm.images[0]
+            brand.innerHTML = `Brand : ${nm.brand}`
+            title.innerHTML = `Model : ${nm.title}`
+            price.innerHTML = `Price : ${nm.price}`
+            rating.innerHTML = `Rating : ${nm.rating}`
+            disc.innerHTML = `About : ${nm.description}`
+
+            div.append(img)
+            div.append(brand)
+            div.append(title)
+            div.append(price)
+            div.append(rating)
+            div.append(disc)
+            document.body.append(div)
 
             
+            console.log(div)
+
+        })
+
+
         }) })
     </script>
 </body>
