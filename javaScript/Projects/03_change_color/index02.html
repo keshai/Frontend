@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" class="input">
+    <button class="get">Get</button>
+
+
+    <script>
+        document.querySelector('.get').onclick = ()=>{
+            let val =  document.querySelector('.input').value
+        //    console.log(val)
+            let div = document.querySelector('body')
+            div.style.backgroundColor = val
+       }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, this is REGex Software</h1>
+    <button class="min">-</button>
+    <button class="plus">+</button>
+    <button class="reset">Reset</button>
+
+    <script>
+        // let h1 = document.querySelector('h1')
+        let counter = 32
+        document.querySelector('.min').onclick = function(){
+            document.querySelector('h1').style.fontSize = counter +'px'
+            counter-=2
+        }
+        document.querySelector('.plus').onclick = function(){
+            document.querySelector('h1').style.fontSize = counter +'px'
+            counter+=2
+        }
+        document.querySelector('.reset').onclick = function(){
+            document.querySelector('h1').style.fontSize = 32 +'px'
+            
+        }
+    </script>
+</body>
+</html>

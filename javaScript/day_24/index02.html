@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        async function output(){
+
+            let myapi = await fetch('https://dummyjson.com/quotes')
+            let response = await myapi.json()
+            let quote =  response.quotes
+            let ids = quote.filter((i)=>{
+
+                let div = document.createElement('div') 
+                div.setAttribute('class', 'box')
+                let num = document.createElement('h2')
+                let line = document.createElement('h2')
+                let autho = document.createElement('h3')
+
+                num.innerHTML = `ID : ${i.id}`
+                line.innerHTML = `Quotes : ${i.quote}`
+                autho.innerHTML = `Author : ${i.author} <br><br>`
+
+                div.append(num)
+                div.append(line)
+                div.append(autho)
+                document.body.append(div)
+
+            })
+
+            
+        }
+        output()
+    </script>
+</body>
+</html>
