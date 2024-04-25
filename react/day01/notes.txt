@@ -1,0 +1,8 @@
+React is library.
+predefiend code in library and framework
+virtual and real dom
+jsx - > html in js
+spa -> single page application
+npx create-react-app myapp -->> installing react 
+npm create vite@latest -> myproj_vite -> select js
+npm i/install -> node module install
