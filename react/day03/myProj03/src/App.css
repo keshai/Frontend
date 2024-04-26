@@ -1,0 +1,12 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box;}
+.header{width: 100%; padding: 20px 80px; border: 1px solid black; background-color: rgb(35, 35, 35); display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+.logo{color: white; font-size: 20px; margin: 0px;font-family: Arial, Helvetica, sans-serif;}
+.nav{width: 40%; display: flex; flex-wrap: wrap; justify-content: space-around;}
+.navBtn{text-decoration: none; color: white; font-family: Arial, Helvetica, sans-serif;font-size: 16px;}
+.navBtn:hover{color: rgb(254, 212, 212); text-shadow: 0px 0px 2px rgb(255, 194, 194);}
+
+/* --------------|Home|-------------- */
+.home{height: 600px; border: 1px solid black; background-image: url("./images/slide_01.jpg");background-size: cover; background-position: center;display: flex; align-items: center;justify-content: center ;}
+.hometxt{height: 130px; display: flex; flex-wrap: wrap; align-items: center;justify-content: center;}
+.hometxt h4{color: red;font-size: 22px; font-family: Arial, Helvetica, sans-serif; font-weight: 700;width: 100%;text-align: center;}
+.hometxt h1{color: white; letter-spacing: 5px;font-family: Arial, Helvetica, sans-serif;font-size: 55px; font-weight: 300;}
