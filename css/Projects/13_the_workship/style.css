@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    border: 1px solid black;
+}
+
+/* -----------------------------------| HOME |----------------------------------- */
+.home{
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(249, 249, 248);
+}
+/* home sliding images */
+.homeSlideImg{
+    height: 800px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,100%);
+    animation: homeAni 20s linear infinite;
+}
+.homeImg1{
+    background-image: url("images/image_3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.homeImg2{
+    background-image: url("images/image_4.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.homeImg3{
+    background-image: url("images/image_5.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@keyframes homeAni {
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(0%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-100%);}
+    40%{transform: translateX(-100%);}
+    50%{transform: translateX(-100%);}
+    60%{transform: translateX(-200%);}
+    70%{transform: translateX(-200%);}
+    80%{transform: translateX(-200%);}
+    90%{transform: translateX(-200%);}
+    100%{transform: translateX(0%);}
+}
+
+/* navBar */
+.nav{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 50px 20px 20px;
+}
+.navLeft{
+    width: 35%;
+    height: 50px;
+    background-image: url("images/image_0.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 60px;
+}
+.navRight{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.navUl{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    align-content: center;
+    justify-items: center;
+    color: white;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    position: relative;
+    margin-right: 20px;
+}
+.navLi{
+    cursor: pointer;
+}
+.navLi:hover{
+    font-size: 18px;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+#navLi1::after{
+    content: "";
+    width: 55px;
+    position: absolute;
+    top: 40px;
+    left: 22px;
+}
+
+#navLi2:hover::after{
+    content: "";
+    width: 55px;
+    position: absolute;
+    top: 40px;
+    left: 122px;
+}
+
+#navLi3:hover::after{
+    content: "";
+    width: 80px;
+    position: absolute;
+    top: 40px;
+    left: 210px;
+}
+
+#navLi4:hover::after{
+    content: "";
+    width: 40px;
+    border: 1px solid white;
+    position: absolute;
+    top: 40px;
+    left: 329px;
+}
+
+#navLi5:hover::after{
+    content: "";
+    width: 85px;
+    border: 1px solid white;
+    position: absolute;
+    top: 40px;
+    left: 409px;
+}
+.joinUs{
+    background-color: rgb(190, 155, 131);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 17px;
+    height: 40px;
+    width: 150px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.nav .navRight a{
+    color: white;
+    text-decoration: none;
+    
+}
+.nav .navRight a:visited{
+    color: white;
+}
+
+.HomeImgBtn{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.hib{
+    font-size: 8px;
+    margin: 5px 2px;
+    border-radius: 100%;
+    background-color: rgb(199, 199, 198);
+}
+.hib:nth-child(1){
+    background-color: black;
+    border-radius: 100%;
+}
