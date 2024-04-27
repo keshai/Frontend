@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02</title>
+    <style>
+        .container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        form{
+            border: 1px solid black;
+            padding: 10px 30px;
+        }
+        label{
+            padding: 0px 2px;
+            height: 30px;
+            font-size: 20px;
+        }
+        input{
+            width: 500px;
+            height: 30px;
+            font-size: 24px;
+            padding: 2px 5px;
+        }
+        button{
+            width: 100%;
+            font-size: 20px;
+            padding: 5px 20px;
+            background-color: rgb(240, 255, 240);
+        }
+        hr{
+            margin: 20px 0px;
+        }
+        table{
+            width: 570px;
+            border: 1px solid black;
+            margin: auto;
+        }
+        td,th{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <label for="name">S. No:</label><br>
+            <input type="text" name="" id="sno"><br>
+            <label for="name">Name:</label><br>
+            <input type="text" name="" id="name"><br>
+            <label for="name">Email:</label><br>
+            <input type="text" name="" id="email"><br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+    <table>
+        <hr>
+        <tr>
+            <th>S. NO.</th>
+            <th>Name</th>
+            <th>EMAIL</th>
+        </tr>
+    </table>
+
+    <script>
+        let button = document.querySelector("button")
+        button.addEventListener("click", ()=>{
+            let sno = document.querySelector("#sno").value
+            let name = document.querySelector("#name").value
+            let email = document.querySelector("#email").value
+
+            document.querySelector("#sno").value = ""
+            document.querySelector("#name").value = ""
+            document.querySelector("#email").value = ""
+
+            document.querySelector("#sno").focus()
+            console.log(sno)
+            console.log(name)
+            console.log(email)
+        
+        let tr = document.createElement('tr')
+        tr.innerHTML = sno;
+    })
+
+    </script>
+</body>
+</html>

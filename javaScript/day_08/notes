@@ -1,2 +1,5 @@
 quirySelector
 quirySelectorAll
+event Listener -> addEventListener("click", function(){
+    your code for function //
+})

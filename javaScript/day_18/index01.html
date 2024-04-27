@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Get Info</button>
+    
+    <script>
+        const complexData = [
+          {
+            id: 1,
+            name: "John Doe",
+            age: 30,
+            address: {
+              street: "123 Main St",
+              city: "Anytown",
+              country: "USA",
+            },
+            orders: [
+              { orderId: "A123", amount: 50.75, status: "completed" },
+              { orderId: "B456", amount: 30.25, status: "pending" },
+            ],
+          },
+          {
+            id: 2,
+            name: "Jane Smith",
+            age: 25,
+            address: {
+              street: "456 Oak St",
+              city: "Othercity",
+              country: "USA",
+            },
+            orders: [
+              { orderId: "C789", amount: 100.5, status: "completed" },
+              { orderId: "D012", amount: 75.2, status: "completed" },
+            ],
+          },
+        ];
+
+        
+        let btn = document.querySelector("button")
+        btn.addEventListener("click",()=>{
+            // Filter users who are aged 25 or younger.
+            // let d = complexData.filter((item)=>{ return item.age>25 })
+            // console.log(d)
+
+
+            // Filter users who have at least one order with a status of 'pending'.
+            // let d = complexData.map((item)=> item.orders.filter((e)=> e.status == 'pending'))
+            // console.log(d)
+
+
+            // Map the array to get an array of order IDs.
+            // let d = complexData.map((item)=> item.orders.map((e)=> e.orderId))
+            // console.log(d.flat())
+            
+            
+            // Map the array to get an array of objects containing user names and their total order amounts.
+            // let d = complexData.map((item)=> item.name + "  " + item.orders.filter((e)=> e.orderId))
+            // console.log(d.flat())
+
+            // let d = complexData.map((item) => { let totalAmount = item.orders.reduce((sum, order) => sum + order.amount, 0)
+            //     return { name: user.name, totalAmount }})
+
+          // Filter users who have at least one order with a status of 'pending'.
+            let d = complexData.map((item)=> item.orders.filter((e)=>  e.status == 'pending'))
+            console.log(d)  
+            
+        })
+    </script>
+</body>
+</html>

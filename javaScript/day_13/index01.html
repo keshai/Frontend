@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- here i learn about append, prepend, after and before in javaScript  -->
+    <!-- in this we create html elements and cantrol html using javaScript -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Interval</title>
+    <style>
+        dl{
+            background-color: rgb(255, 216, 216);
+            padding: 5px 10px;
+        }
+        p{
+            background-color: rgb(244, 255, 230);
+            padding: 5px 10px;
+        }
+        button{
+            padding: 5px 20px;
+            margin: 10px 0px;
+            letter-spacing: 1px;
+            background-color: rgb(255, 245, 173);
+            border: 1px solid rgb(255, 235, 82);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <dl>
+            <th>Aap Kya loge ?</th>
+            <li>chai</li>
+            <li>coffee</li>
+            <li>pani</li>
+        </dl>
+        <p>ye atithiyo ko pucha jata hai</p>
+    </div>
+
+    <script>
+        let btn = document.createElement("button");
+        btn.innerText = "Order";
+        console.log(btn);
+
+        let dl = document.querySelector("p");
+        dl.after(btn)
+    </script>
+</body>
+</html>

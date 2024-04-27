@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" class="input">
+    <button>Get</button>
+    <script>
+        let obj=[
+            {
+                id:1,
+                name:"ajay",
+                age:21,
+                pin_code:[102030,302010,405060]
+            },
+            {
+                id:2,
+                name:"mohit",
+                age:22,
+                pin_code:[102030,302010,405060]
+            },
+            {
+                id:3,
+                name:"ahav",
+                age:23,
+                pin_code:[102030,302010,405060]
+            },
+            {
+                id:4,
+                name:"shyy",
+                age:23,
+                pin_code:[102030,302010,405060]
+            },
+            {
+                id:5,
+                name:"aarohee",
+                age:26,
+                pin_code:[102030,302010,405060]
+            },
+            {
+                id:6,
+                name:"raghav",
+                age:24,
+                pin_code:[102030,302010,405060]
+            },
+            {
+                id:7,
+                name:"raghav",
+                age:23,
+                pin_code:[102030,302010,405060]
+            },
+            {
+                id:8,
+                name:"raghav",
+                age:23,
+                pin_code:[102030,302010,405060]
+            },
+            {
+                id:9,
+                name:"raghu",
+                age:16,
+                pin_code:[102030,302010,405060]
+            },
+            {
+                id:10,
+                name:"rehan",
+                age:17,
+                pin_code:[102030,302010,405060]
+            },
+
+        ]
+        // for(i in obj){ console.log(obj[i]) }
+        // obj.forEach(element => {console.log(element.id,element.name)});
+        let btn = document.querySelector('button')
+        // btn.addEventListener('click',()=>{
+        //     let upObj = obj.filter((val)=>{return val.age>=26})
+        //     console.log(upObj)
+        // })
+
+        // btn.addEventListener('click',()=>{
+        //     console.log(obj.map((pin)=>{return pin.pin_code[0]+pin.pin_code[1]+pin.pin_code[2]}))
+        // })
+
+        btn.addEventListener('click',()=>{
+            let filt = obj.filter((item)=>{item.name[0] == 'a'})
+            console.log()
+        })
+    </script>
+</body>
+</html>

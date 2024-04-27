@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <input type="text" name="" id="txt">
+    <button class="btn">Add</button>
+    <h3></h3>
+
+    <script>
+        // document.querySelector(".btn").onclick = function(){
+        //     let data = document.querySelector("input").value;
+        //     document.querySelector("h3").innerText += `${data}`;
+        //     document.querySelector("h3").innerText =  " ";
+        //     document.querySelector("#txt").focus;
+        // }
+
+
+        document.addEventListener("click",function(){
+            let data = document.querySelector("#txt").value;
+            document.querySelector("h3").innerText=`${data}`;
+             data = document.querySelector("#txt").value = "";
+            document.querySelector("input").focus();        })
+    </script>
+</body>
+</html>
