@@ -5,7 +5,8 @@ import './App.css'
 import Header from './Header.jsx'
 import Home from './Home.jsx'
 import Latestproduct from './Latestproduct.jsx'
-
+import About from './About.jsx'
+import Purchase from './Purchage.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,5 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Header />
     <Home />
     <Latestproduct />
+    <About />
+    <Purchase />
   </React.StrictMode>
 )

@@ -1,25 +1,53 @@
 *{padding: 0px; margin: 0px; box-sizing: border-box;}
-.header{width: 100%; padding: 20px 80px; border: 1px solid black; background-color: rgb(35, 35, 35); display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+html{font-family: Arial, Helvetica, sans-serif;}
+.header{width: 100%; padding: 20px 80px; background-color: rgb(35, 35, 35); display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
 .logo{color: white; font-size: 20px; margin: 0px;font-family: Arial, Helvetica, sans-serif;}
 .nav{width: 40%; display: flex; flex-wrap: wrap; justify-content: space-around;}
 .navBtn{text-decoration: none; color: white; font-family: Arial, Helvetica, sans-serif;font-size: 16px;}
 .navBtn:hover{color: rgb(254, 212, 212); text-shadow: 0px 0px 2px rgb(255, 194, 194);}
 
 /* --------------|Home|-------------- */
-.home{height: 600px; border: 1px solid black; background-image: url("./images/slide_01.jpg");background-size: cover; background-position: center;display: flex; align-items: center;justify-content: center ;}
+.home{height: 600px; background-image: url("./images/slide_01.jpg");background-size: cover; background-position: center;display: flex; align-items: center;justify-content: center ;}
 .hometxt{height: 130px; display: flex; flex-wrap: wrap; align-items: center;justify-content: center;}
 .hometxt h4{color: red;font-size: 22px; font-family: Arial, Helvetica, sans-serif; font-weight: 700;width: 100%;text-align: center;}
 .hometxt h1{color: white; letter-spacing: 5px;font-family: Arial, Helvetica, sans-serif;font-size: 55px; font-weight: 300;}
 
 /* --------------|Product|-------------- */
-.latestproduct{height: 700px;width: 100%; border: 1px solid black;padding: 50px 100px;}
+.latestproduct{height: 700px;width: 100%;padding: 50px 150px;}
 .headingH2{font-family: Arial, Helvetica, sans-serif; font-size: 30px;font-weight: 100;}
 
-/* --------------|Product|-------------- */
-.mainCard{border: 1px solid black; margin: 50px 0px; padding: 40px 0px;}
-.card{border: 1px solid black; height: 330px;width: 340px; padding: 0px 0px 20px 0px;}
-.cardImg{border: 1px solid black; height: 45%;width: 100%;}
-.detail{border: 1px solid black; height: 55%; padding: 0px 20px;}
-.l1{border: 1px solid black;height: 20%; width: 100%; }
-.l2{border: 1px solid black;height: 60%; width: 100%; }
-.l3{border: 1px solid black;height: 20%; width: 100%; }
+/* --------------|Card|-------------- */
+.mainCard{margin: 50px 0px; padding: 40px 0px;}
+.card{ height: 330px;width: 340px; padding: 0px 0px 20px 0px;border: 1px solid rgb(238, 238, 238);}
+.cardImg{ height: 45%;width: 100%;}
+.detail{ height: 55%; padding: 0px 20px;}
+.l1{height: 20%; width: 100%; }
+.l2{height: 60%; width: 100%; }
+.l3{height: 20%; width: 100%; }
+
+/* --------------|About|-------------- */
+.about{width: 100%; padding: 50px 150px;}
+.heading{font-family: Arial, Helvetica, sans-serif; font-size: 30px;font-weight: 100;}
+hr{margin: 10px 0px; font-weight: 100;}
+.about-section{ margin: 50px 0px; padding: 20px 0px;display: flex; flex-wrap: nowrap;}
+.about-section .ab-left{ width: 50%;}
+.about-section .ab-right{ width: 50%;}
+.about-section .ab-left .title{color: rgb(26, 102, 146) ; font-size: 20px;font-family: Arial, Helvetica, sans-serif; margin: 0px 0px 20px 0px;}
+.about-section .ab-left .desc{line-height: 25px;}
+.about-section .ab-left ul{text-decoration: none; color: rgb(0, 0, 0); padding: 0px 20px;margin: 20px 0px;}
+.about-section .ab-left ul li{line-height: 30px;}
+.about-section .ab-left ul a{text-decoration: none; color: rgb(0, 0, 0);}
+.about-section .ab-left button{background-color: rgb(255, 53, 53);color: white;border: rgb(255, 53, 53); border-radius: 4px; padding: 10px 22px;font-size: 16px;}
+
+.about-section .ab-right
+{background-image: url("images/feature-image.jpg"); background-repeat: no-repeat; background-size: cover;}
+
+/* --------------|Subscription|-------------- */
+.box{width: 100%; padding: 50px 150px;}
+
+.in-box{display: flex;flex-wrap: nowrap; background-color: rgb(247, 247, 247); padding: 28px 20px;}
+.in-box .box-left{line-height: 30px; width: 70%;}
+.in-box .box-left .title{color: rgb(26, 102, 146);font-size: 20px;}
+
+.in-box .box-right{width: 30% ;display: flex;justify-content: right; padding: 10px 0px;}
+.in-box .box-right button{color: white; background-color: rgb(255, 53, 53);border: rgb(255, 53, 53);border-radius: 4px; padding: 0px 20px;font-size: 16px;height: 40px;}
