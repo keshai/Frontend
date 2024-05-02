@@ -8,14 +8,18 @@ import Latestproduct from './Latestproduct.jsx'
 import About from './About.jsx'
 import Purchase from './Purchage.jsx'
 
+import ProductPage from './ProductPage.jsx'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
-    <Header />
-    <Home />
-    <Latestproduct />
-    <About />
-    <Purchase />
+      <Header />
+      <Home h4="Best Offer" h1="New Arrivals On Sale" />
+      <Latestproduct />
+      <About />
+      <Purchase />
+      <ProductPage />
+      
   </React.StrictMode>
 )

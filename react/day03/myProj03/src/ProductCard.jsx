@@ -2,7 +2,6 @@ import imgs from './images/product_01.jpg'
 function ProductCard(){
     return(
        <>
-        <div className="mainCard">
             <div className="card">
                 <img src={imgs} alt="" className="cardImg" />
                 <div className="detail">
@@ -19,7 +18,7 @@ function ProductCard(){
                         </div>
                 </div>
             </div>
-        </div>
+        
        </>
     )
 }
