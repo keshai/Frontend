@@ -4,7 +4,7 @@ function PageCounter(){
         <div className="pageCounter-inner">
             <ul>
                 <li> <a href="#"> 1 </a> </li>
-                <li> <a id="crnt" href="#"> 2 </a> </li>
+                <li id="crnt"> <a id="a" href="#"> 2 </a> </li>
                 <li> <a href="#"> 3 </a> </li>
                 <li> <a href="#"> 4 </a> </li>
                 <li> <a href="#"> <i class="fa-solid fa-angles-right"></i> </a> </li>

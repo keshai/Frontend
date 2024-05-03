@@ -15,11 +15,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
       <Header />
-      <Home h4="Best Offer" h1="New Arrivals On Sale" />
+      <Home h4="Best Offer" h1="New Arrivals On" />
       <Latestproduct />
       <About />
       <Purchase />
       <ProductPage />
-      
   </React.StrictMode>
 )

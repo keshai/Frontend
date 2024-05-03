@@ -1,4 +1,8 @@
+
+
 function Header(){
+    
+
     return(
         <div className="header">
             <div className="logo">SIXTEEN CLOTHING</div>

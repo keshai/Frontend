@@ -69,4 +69,9 @@ hr{margin: 10px 0px; font-weight: 100;}
 .pageCounter-inner ul li{text-decoration: none; list-style: none;border: 1px solid rgb(203, 203, 203);padding: 12px 18px; margin: 0px 5px; font-weight: 700;}
 .pageCounter-inner ul li a{text-decoration: none; color:black; font-weight: 700; transition: all 0.3s; text-transform: uppercase; font-size: 16px;}
 .pageCounter-inner ul li a:hover{color: red;}
-.pageCounter-inner ul li #crnt{color: red;}
+.pageCounter-inner #crnt{background-color: red; color: white;}
+.pageCounter-inner ul li #a{color: white;}
+
+
+/* --------------------------------|Third Page|--------------------------------- */
+/* ---------------|  |--------------- */
