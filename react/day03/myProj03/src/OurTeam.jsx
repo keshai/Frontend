@@ -6,9 +6,9 @@ const OurTeam = () => {
         <h1 className="heading">Our Team Members</h1>
            <div className="member-section">
                 {/* Member cart call () */}
-                <MemberCart />
-                <MemberCart />
-                <MemberCart />
+                <MemberCart name="Keshav" post="CEO" />
+                <MemberCart name="Mohit" post="MLA" />
+                <MemberCart name="Pranjal" post="Senoir Dev." />
                 <MemberCart />
                 <MemberCart />
                 <MemberCart />

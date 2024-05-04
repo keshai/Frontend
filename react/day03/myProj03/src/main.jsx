@@ -10,6 +10,7 @@ import Purchase from './Purchage.jsx'
 
 import ProductPage from './ProductPage.jsx'
 import AboutPage from './AboutPage.jsx'
+import Footer from './Footer.jsx'
 
 
 
@@ -25,5 +26,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi
       <Purchase />
       <ProductPage />
       <AboutPage />
+      <Footer />
   </React.StrictMode>
 )

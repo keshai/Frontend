@@ -76,19 +76,39 @@ hr{margin: 10px 0px; font-weight: 100;}
 /* --------------------------------|Third Page|--------------------------------- */
 /* ---------------| About Us |--------------- */
 .about-page{width: 100%; padding: 50px 150px; margin-top: 70px;display: flex;
-flex-wrap: wrap;justify-content: center; align-items: center;}
-/* ---------------| Quick Links |--------------- */
-.quick-links{ width: 300px; padding: 10px 15px; background-color: white;border-radius: 4px; padding: 10px 22px; display: flex; justify-content: space-around;}
+    flex-wrap: wrap;justify-content: center; align-items: center;}
+    /* ---------------| Quick Links |--------------- */
+    .quick-links{ width: 300px; padding: 10px 15px; background-color: white;border-radius: 4px; padding: 10px 22px; display: flex; justify-content: space-around;}
 .quick-links i{color: black; border: 1px solid black;padding: 10px 12px; font-size: 20px;}
 /* ---------------|Our Team|--------------- */
 .ourTeam{width: 100%; padding: 10px 0px; margin-top: 70px;}
 .member-section{border-top: 1px solid rgb(195, 193, 193);border-bottom: 1px solid rgb(195, 193, 193); display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 40px;}
 
 /* ---------------|member-cart|--------------- */
-.member-cart{height: 300px; width: 320px; border: 1px solid rgb(218, 218, 218); margin: 30px 0px;}
-.mem-img{height: 60%; width: 100%;}
+.member-cart{height: 380px; width: 350px; border: 1px solid rgb(218, 218, 218); margin: 30px 0px;}
+.mem-img{height: 67%; width: 100%;}
 .member-cart .mem-img img{width: 100%;height: 100%;}    
-.member-cart .detail{height: 40% ;padding: 10px 15px; display: flex; flex-wrap: wrap; flex-direction: column ;align-items: center;}
+.member-cart .detail{height: 33%; padding: 10px 15px; display: flex; flex-wrap: wrap; flex-direction: column ;align-items: center;}
 .member-cart .detail .name{color: rgb(26, 102, 146);font-size: 20px; margin: 0px 0px 5px 0px;}
 .member-cart .detail .post{color: rgb(170, 53, 53);font-size: 15px;margin: 0px 0px 15px 0px;}
 .member-cart .detail .desc{color: rgb(122, 122, 122); font-size: 16px; font-family: Arial, Helvetica, sans-serif;text-align: center;}
+
+/* ---------------|ServiceCard|--------------- */
+.Service-div{width: 100%; padding: 60px 110px; display: flex; align-items: center; justify-content: space-evenly; background-image: url("images/services-bg.jpg"); background-attachment: fixed;}
+.service-card{height: 450px; width: 330px; border: 1px solid rgb(218, 218, 218); margin: 30px 0px; background-color: white;}
+.service-img{height: 55%; width: 100%;}
+.service-card .details{height: 45%; width: 100%;padding: 10px 15px; display: flex; flex-wrap: wrap; flex-direction: column ;align-items: center; justify-content: space-evenly; }
+.service-title{color: rgb(26, 102, 146);font-size: 20px; margin: 0px 0px 5px 0px;}
+.service-desc{color: rgb(122, 122, 122); font-size: 16px; font-family: Arial, Helvetica, sans-serif;text-align: center;}
+.service-btn{padding: 8px 15px; color: white; background-color: rgb(204, 51, 51); border-radius: 4px; border: 1px solid red; text-transform: uppercase;font-size: 16px;}
+
+/* ---------------|ServiceCard|--------------- */
+.partner{width: 100%; padding: 50px 150px; margin-top: 70px;}
+.company{width: 100%; padding: 20px 0px; margin-top: 70px; border-top: 1px solid rgb(180, 180, 180);border-bottom: 1px solid rgb(180, 180, 180); height: 150px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; overflow: hidden;}
+
+
+
+/* --------------------------------|Footer|--------------------------------- */
+/* ---------------|Footer|--------------- */
+.footer{padding: 80px 150px; display: flex; justify-content: center; align-items: center; }
+.span{color: red;}
