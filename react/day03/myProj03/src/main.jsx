@@ -5,10 +5,12 @@ import './App.css'
 import Header from './Header.jsx'
 import Home from './Home.jsx'
 import Latestproduct from './Latestproduct.jsx'
-import About from './About.jsx'
+import AboutSection from './AboutSection.jsx'
 import Purchase from './Purchage.jsx'
 
 import ProductPage from './ProductPage.jsx'
+import AboutPage from './AboutPage.jsx'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -17,8 +19,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Header />
       <Home h4="Best Offer" h1="New Arrivals On" />
       <Latestproduct />
-      <About />
+      <AboutSection heading="Our Background" title="Who we are & What we do?" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis." link="Read More" />
       <Purchase />
       <ProductPage />
+      <AboutPage />
   </React.StrictMode>
 )

@@ -25,7 +25,7 @@ html{font-family: Arial, Helvetica, sans-serif;}
 .l2{height: 60%; width: 100%; }
 .l3{height: 20%; width: 100%; }
 
-/* --------------|About|-------------- */
+/* --------------|About Section|-------------- */
 .about{width: 100%; padding: 50px 150px;}
 .heading{font-family: Arial, Helvetica, sans-serif; font-size: 30px;font-weight: 100;}
 hr{margin: 10px 0px; font-weight: 100;}
@@ -37,7 +37,7 @@ hr{margin: 10px 0px; font-weight: 100;}
 .about-section .ab-left ul{text-decoration: none; color: rgb(0, 0, 0); padding: 0px 20px;margin: 20px 0px;}
 .about-section .ab-left ul li{line-height: 30px;}
 .about-section .ab-left ul a{text-decoration: none; color: rgb(0, 0, 0);}
-.about-section .ab-left button{background-color: rgb(255, 53, 53);color: white;border: rgb(255, 53, 53); border-radius: 4px; padding: 10px 22px;font-size: 16px;}
+.about-section .ab-left button{background-color: rgb(255, 53, 53); color:white;border: rgb(255, 53, 53); border-radius: 4px; padding: 10px 22px;font-size: 16px;}
 
 .about-section .ab-right
 {background-image: url("images/feature-image.jpg"); background-repeat: no-repeat; background-size: cover;}
@@ -74,4 +74,21 @@ hr{margin: 10px 0px; font-weight: 100;}
 
 
 /* --------------------------------|Third Page|--------------------------------- */
-/* ---------------|  |--------------- */
+/* ---------------| About Us |--------------- */
+.about-page{width: 100%; padding: 50px 150px; margin-top: 70px;display: flex;
+flex-wrap: wrap;justify-content: center; align-items: center;}
+/* ---------------| Quick Links |--------------- */
+.quick-links{ width: 300px; padding: 10px 15px; background-color: white;border-radius: 4px; padding: 10px 22px; display: flex; justify-content: space-around;}
+.quick-links i{color: black; border: 1px solid black;padding: 10px 12px; font-size: 20px;}
+/* ---------------|Our Team|--------------- */
+.ourTeam{width: 100%; padding: 10px 0px; margin-top: 70px;}
+.member-section{border-top: 1px solid rgb(195, 193, 193);border-bottom: 1px solid rgb(195, 193, 193); display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 40px;}
+
+/* ---------------|member-cart|--------------- */
+.member-cart{height: 300px; width: 320px; border: 1px solid rgb(218, 218, 218); margin: 30px 0px;}
+.mem-img{height: 60%; width: 100%;}
+.member-cart .mem-img img{width: 100%;height: 100%;}    
+.member-cart .detail{height: 40% ;padding: 10px 15px; display: flex; flex-wrap: wrap; flex-direction: column ;align-items: center;}
+.member-cart .detail .name{color: rgb(26, 102, 146);font-size: 20px; margin: 0px 0px 5px 0px;}
+.member-cart .detail .post{color: rgb(170, 53, 53);font-size: 15px;margin: 0px 0px 15px 0px;}
+.member-cart .detail .desc{color: rgb(122, 122, 122); font-size: 16px; font-family: Arial, Helvetica, sans-serif;text-align: center;}
