@@ -1,13 +1,12 @@
-import Header from "./Header"
-import Home from "./Home"
+import Header from '../Header/Header'
+import Home from "../Home/Home"
 import FilterProduct from "./FilterProduct"
-import Latestproduct from "./Latestproduct"
+import Latestproduct from "../Home/Latestproduct"
 import PageCounter from "./PageCounter"
 
 function ProductPage() {
   return (
     <>
-        <Header />
         <Home  h4="New Arrivals" h1="Sixteen Products" />
         <FilterProduct />
         <Latestproduct />

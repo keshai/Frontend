@@ -1,4 +1,4 @@
-import imgs from './images/product_01.jpg'
+import imgs from '../images/product_01.jpg'
 function ProductCard(){
     return(
        <>

@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 function AboutSection({heading, title, desc, link }) {
     return (
@@ -10,11 +10,11 @@ function AboutSection({heading, title, desc, link }) {
                     <div className="title">{title}</div>
                     <div className="desc">{desc}</div>
                     <ul>
-                        <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                        <li><a href="#">Consectetur an adipisicing elit</a></li>
-                        <li><a href="#">It aquecorporis nulla aspernatur</a></li>
-                        <li><a href="#">Corporis, omnis doloremque</a></li>
-                        <li><a href="#">Non cum id reprehenderit</a></li>
+                        <li><Link to="#">Lorem ipsum dolor sit amet </Link></li>
+                        <li><Link to="#">Consectetur an adipisicing elit </Link></li>
+                        <li><Link to="#">It aquecorporis nulla aspernatur </Link></li>
+                        <li><Link to="#">Corporis, omnis doloremque </Link></li>
+                        <li><Link to="#">Non cum id reprehenderit </Link></li>
                     </ul>
                     <button>{link}</button>
                     

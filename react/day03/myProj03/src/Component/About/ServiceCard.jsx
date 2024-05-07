@@ -1,4 +1,4 @@
-import img from "./images/more-info.jpg"
+import img from "../images/more-info.jpg"
 const ServiceCard = ({title,desc,btn}) => {
   return (
     <div className="service-card">

@@ -1,4 +1,4 @@
-import img from './images/client-01.png'
+import img from '../images/client-01.png'
 const Partner = () => {
   return (
     <div className="partner">

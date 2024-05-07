@@ -1,4 +1,4 @@
-import img from './images/team_03.jpg'
+import img from '../images/team_03.jpg'
 
 const MemberCart = ({name,post}) => {
   return (
