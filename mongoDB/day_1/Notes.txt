@@ -1,0 +1,15 @@
+js me obj -> mongoDB me document
+js me array of obj -> mongoDB me collection of document
+js me key -> mongoDB me Field or attributes
+js me val -> mongoDB me value
+js me dataStructure -> mongoDB me DataBase 
+js me function -> mongoDB me Query 
+file system me folder name vo mongoDB ke terms me DataBase kahlayegi
+parent folder me subFolder hoge vo mongoDB ke terms me collections honge.
+subFolder ke andar files hai vo mongoDB ke terms me document hoga.
+file system me file ka name  -> mongoDB me field name 
+file system me data -> mongoDB me value
+file system me curd -> mongoDB me Query
+
+jab bhi DataBase me ek new db banta hai to vo kuch empty parent folder jaisa hota hai, empty parent folder mongoDB me allow nahi hota hai -> empty parent db is not allowed in mongoDB. it means atleast one (collection/one sub folder/empty array) should be there.
+subFolder empty ho sakta hai lekin parent folder empty nahi ho sakta. meand empty collection/ empty arr are allowed but empty db not allowed.
