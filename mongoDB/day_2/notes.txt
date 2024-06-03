@@ -1,0 +1,6 @@
+use dbs
+show dbs
+db.createCollection('coll_name')
+show collections
+db.collection_name.find()
+db.collection_name.insertOne({name: "keshav", email: "keshav@gmail.com"})
