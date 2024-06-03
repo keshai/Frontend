@@ -1,0 +1,8 @@
+use dbs -> switch database
+show dbs -> 
+db.createCollection('coll_name') -> 
+show collections -> 
+db.collection_name.find() -> to see what inside the user file -> show all obj. inside the file
+db.collection_name.insertOne({name: "keshav", email: "keshav@gmail.com"}) -> one by one obj insert
+db.collection_name.insertMany({all objects}) -> more then one obj inserting
+db.collection_name.drop() -> delete the collection
