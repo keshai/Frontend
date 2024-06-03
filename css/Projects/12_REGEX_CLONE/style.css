@@ -6,6 +6,7 @@
 html{
     font-size: 16px;
     font-family: "Open Sans", Sans-serif;
+    
 }
 body{
     height: 100vh;
@@ -15,6 +16,7 @@ body{
     display: flex;    
     flex-direction: column;
     justify-content: center;
+    /* width: 1024px; */
 }
 
 
@@ -2351,7 +2353,8 @@ textarea{
 @media ( min-width: 1024px ) and (max-width: 1410px) {
 /* main web */
 .mainWeb{
-    width: 1410px;
+    /* width: 1410px; */
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -2602,7 +2605,7 @@ textarea{
     }
     /* main web */
     .mainWeb{
-        width: 1023px;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -3110,7 +3113,7 @@ textarea{
     }
     /* main web */
     .mainWeb{
-        width: 768px;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
