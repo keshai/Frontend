@@ -1,0 +1,2 @@
+db.collectionName.find() -> to show all the docs in mongoDB
+db.collectionName.find().count() -> to show how many docs in mongoDB

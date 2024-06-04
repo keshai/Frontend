@@ -1,0 +1,19 @@
+1.How many documents are there in the collection?
+ db.users.find().count()
+
+2.Retrieve all documents where the role is "admin".
+ db.users.find({role:'admin'})
+
+	ex-> Retrieve all documents where the gender is "female".
+ 		db.users.find({gender:'Female'})
+
+3.Find all documents where the role is "customer" and the username contains "Karamchandani".
+ db.users.find({role:'admin', lastName:'Verma'})
+
+4.Retrieve the document with the username "Sumanth Rao".
+ db.users.find({username:'Sumanth Rao'})
+
+6.Retrieve all documents where the user has the skill "Python".
+db.users.find({skills:'python'})
+
+
