@@ -1,0 +1,15 @@
+june.08 Questions -> 
+1.Retrieve all documents where the user's last name is "Sharma" and the role is "customer".
+2.Find all documents where the user has exactly three skills.
+3.Retrieve all documents where the user's first name starts with "S" and the role is "admin".
+4.Find all documents where the user has the skill "Java" and the role is not "admin".
+5.Retrieve all documents where the user's role is not specified.
+6.Find all documents where the user has at least four skills.
+
+answers:
+ 1.db.users.find({lastName:'Sharma',role:'customer'})
+ 2.db.users.find({skills:{$size:3}})
+ 3.db.users.find({role:'admin',firstName:/^S/})
+ 4.db.users.find({role:'admin',skills:'Java'})
+ 5.db.users.find({role:{$exists:false}})
+ 6. db.users.find({'skills.3':{$exists:true}})
