@@ -1,0 +1,6 @@
+$exists :-> 
+ye tab use me leni hoti hai jab clear na ho jab sare obj. me same fiels of info. hai, bcoz monDB schema flexible hota hai to usme ye jaruri nahi hai ye do obj me same field of info ho matlab agar ek obj me sirf name, email of phone num hai to monDB use bhi valid obj karti hai or agar no fields of info ho to bhi use valid consider karegi then at that moment bhot saari data hone ke karan ye samajh pana possible nahi hota hai ki saare obj me same field of info hai ya nahi to iske liye $exists ka use karte hai isme true or false value pass hoti hai
+in simple words : wheather the perticuler key is exist or not in that array of documents.
+atleast -> kam se kam (greater than wquals) || atmost -> jyada se jyada (less than equals)
+$gt $gte $lt %lte $ne $eq
+/^x/ -> at the starting || / x / -> floating kahi bhi || / x$ / -> at the end
