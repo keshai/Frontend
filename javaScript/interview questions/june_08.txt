@@ -1,0 +1,81 @@
+interview questions and answers -> 
+
+== checks for value equality with type coercion, whereas === checks for both value and type equality.
+
+A closure is a function that remembers its lexical scope even when the function is executed outside that scope.
+
+var is function-scoped, while let and const are block-scoped. const variables cannot be reassigned.
+
+Event delegation is a technique of using a single event listener to manage all events of a particular type for multiple elements, taking advantage of event bubbling.
+
+A promise is an object representing the eventual completion or failure of an asynchronous operation and its resulting value.
+
+Prototype inheritance is a method by which one object can inherit the properties and methods of another object.
+
+Arrow functions are a shorthand for writing functions and do not have their own this context. They inherit this from the surrounding scope.
+
+The event loop is a mechanism that allows JavaScript to perform non-blocking operations by offloading operations to the system kernel whenever possible.
+
+async functions return a promise, and await pauses the function execution until the promise is resolved or rejected.
+
+null is an assigned value that represents no value, while undefined means a variable has been declared but not yet assigned a value.
+
+Errors in JavaScript can be handled using try, catch, and finally blocks.
+
+call and apply invoke a function with a given this context. call accepts arguments individually, while apply accepts them as an array. bind returns a new function with a specified this context and arguments.
+
+Hoisting is JavaScript's behavior of moving declarations to the top of the current scope before code execution.
+
+Higher-order functions are functions that take other functions as arguments or return functions as their result.
+
+this refers to the context in which a function is executed. Its value depends on how the function is called.
+
+Synchronous programming executes tasks sequentially, blocking the main thread, while asynchronous programming allows tasks to run concurrently, improving performance and responsiveness.
+
+Generators are functions that can be paused and resumed, allowing for lazy evaluation and handling asynchronous operations with yield.
+
+Destructuring is a syntax for unpacking values from arrays or properties from objects into distinct variables.
+
+The spread operator (...) allows an iterable (like an array or object) to be expanded into individual elements.
+
+Modules are reusable pieces of code that can be exported from one script and imported into another. ES6 introduced the import and export syntax for modules.
+
+map creates a new array by applying a function to each element. filter creates a new array with elements that pass a test. reduce executes a reducer function on each element of the array, resulting in a single output value.
+
+typeof returns a string indicating the type of the unevaluated operand. instanceof tests whether the prototype property of a constructor appears anywhere in the prototype chain of an object.
+
+A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
+
+Currying is a technique of evaluating functions with multiple arguments, by transforming them into a sequence of functions each with a single argument.
+
+Template literals are enclosed by backticks (`), allowing embedded expressions and multiline strings, as well as string interpolation using ${expression}`.
+
+Object.create() creates a new object, using an existing object as the prototype of the newly created object.
+
+Using Array.isArray(variable).
+
+Memoization is an optimization technique where the results of expensive function calls are cached and returned when the same inputs occur again.
+
+An IIFE is a function that is executed immediately after its definition. It is used to avoid polluting the global scope.
+
+Improved productivity, reusable components, easier management of state and DOM, efficient updates, and enhanced performance through virtual DOM (React) or two-way data binding (Angular).
+
+The new keyword is used to create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
+
+Synthetic events are React’s cross-browser wrapper around the browser’s native event. They ensure that events have consistent properties across different browsers.
+
+super is used to call the constructor of the parent class and to access parent class methods.
+
+Object literals, constructor functions, Object.create(), and ES6 classes.
+
+A shallow copy copies an object’s properties, while a deep copy copies all nested objects, ensuring complete duplication without references to the original objects.
+
+The virtual DOM is a lightweight in-memory representation of the actual DOM. It allows React to efficiently update and render components by diffing the virtual DOM and updating only the changed parts.
+
+Symbol is a primitive data type introduced in ES6, used to create unique and immutable values primarily for object property keys.
+
+Debouncing delays the execution of a function until a specified time has elapsed since the last call. Throttling limits the execution of a function to once every specified period.
+
+Using event.stopPropagation() to stop the event from propagating up the DOM tree.
+
+Proxies allow you to create a proxy object that intercepts and defines custom behavior for fundamental operations (e.g., property lookup, assignment, enumeration, function invocation).
