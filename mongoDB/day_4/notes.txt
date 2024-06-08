@@ -1,0 +1,4 @@
+Operator ->
+$and $or $not $ne $exist $all $nin
+
+$size -> size 
