@@ -1,20 +1,20 @@
 interview questions and answers -> 
 
-== checks for value equality with type coercion, whereas === checks for both value and type equality.
+1.) == checks for value equality with type coercion, whereas === checks for both value and type equality.
 
-A closure is a function that remembers its lexical scope even when the function is executed outside that scope.
+2.) A closure is a function that remembers its lexical scope even when the function is executed outside that scope.
 
-var is function-scoped, while let and const are block-scoped. const variables cannot be reassigned.
+3.) Var is function-scoped, while let and const are block-scoped. const variables cannot be reassigned.
 
-Event delegation is a technique of using a single event listener to manage all events of a particular type for multiple elements, taking advantage of event bubbling.
+4.) Event delegation is a technique of using a single event listener to manage all events of a particular type for multiple elements, taking advantage of event bubbling.
 
-A promise is an object representing the eventual completion or failure of an asynchronous operation and its resulting value.
+5.) A promise is an object representing the eventual completion or failure of an asynchronous operation and its resulting value.
 
-Prototype inheritance is a method by which one object can inherit the properties and methods of another object.
+6.) Prototype inheritance is a method by which one object can inherit the properties and methods of another object.
 
-Arrow functions are a shorthand for writing functions and do not have their own this context. They inherit this from the surrounding scope.
+7.) Arrow functions are a shorthand for writing functions and do not have their own this context. They inherit this from the surrounding scope.
 
-The event loop is a mechanism that allows JavaScript to perform non-blocking operations by offloading operations to the system kernel whenever possible.
+8.) The event loop is a mechanism that allows JavaScript to perform non-blocking operations by offloading operations to the system kernel whenever possible.
 
 async functions return a promise, and await pauses the function execution until the promise is resolved or rejected.
 

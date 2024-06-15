@@ -1,0 +1,52 @@
+ -----------------------------------------------------------------------
+
+ use dbs -> switch database
+show dbs -> 
+db.createCollection('coll_name') -> 
+show collections -> 
+db.collection_name.find() -> to see what inside the user file -> show all obj. inside the file
+db.collection_name.insertOne({name: "keshav", email: "keshav@gmail.com"}) -> one by one obj insert
+db.collection_name.insertMany({all objects}) -> more then one obj inserting
+db.collection_name.drop() -> delete the collection
+
+
+ -----------------------------------------------------------------------
+
+db.collectionName.find() -> to show all the docs in mongoDB
+db.collectionName.find().count() -> to show how many docs in mongoDB
+
+ -----------------------------------------------------------------------
+
+Operator ->
+$and $or $not $ne $exist $all $nin
+$size -> size 
+
+ -----------------------------------------------------------------------
+
+ $exists :-> 
+ye tab use me leni hoti hai jab clear na ho jab sare obj. me same fiels of info. hai, bcoz monDB schema flexible hota hai to usme ye jaruri nahi hai ye do obj me same field of info ho matlab agar ek obj me sirf name, email of phone num hai to monDB use bhi valid obj karti hai or agar no fields of info ho to bhi use valid consider karegi then at that moment bhot saari data hone ke karan ye samajh pana possible nahi hota hai ki saare obj me same field of info hai ya nahi to iske liye $exists ka use karte hai isme true or false value pass hoti hai
+in simple words : wheather the perticuler key is exist or not in that array of documents.
+atleast -> kam se kam (greater than wquals) || atmost -> jyada se jyada (less than equals)
+$gt $gte $lt %lte $ne $eq
+/^x/ -> at the starting || / x / -> floating kahi bhi || / x$ / -> at the end
+
+
+ -----------------------------------------------------------------------
+
+system design -> 
+monolatic architecture
+distributive architecture
+
+database design -> mnonolatic or distributive
+monolatic ->  find 
+distributive -> aggregation pipeline ,
+
+$in -> more then one command true // or 
+
+group -> group can be done on the basis of any key 
+documents ko only basis on skills or gender or city , we can group 
+ $group{ 
+    _id: "$gender",
+    sumofuser: {$sum:1}
+    users: {$push :"$$ROOT"}
+ }

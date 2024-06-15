@@ -1,0 +1,2 @@
+$avg ka use karke average nikal sakte hai
+composite key - it is combination of more then one object key

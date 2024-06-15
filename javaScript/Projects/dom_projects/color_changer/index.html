@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contain{height: 500px; width: 100%; border: 1px solid black; background-color: rgb(238, 255, 241); display: flex; justify-content: center; align-items: center; flex-wrap: wrap;}
+        .contain .color{
+            height: 50px; width: 50px; border: 1px solid black; margin: 0px 2px;}
+        .contain .color:nth-child(1){ background-color: red;}
+        .contain .color:nth-child(2){ background-color: rgb(0, 255, 76);}
+        .contain .color:nth-child(3){ background-color: rgb(0, 102, 255);}
+        .contain .color:nth-child(4){ background-color: rgb(255, 0, 153);}
+    </style>
+    
+</head>
+<body>  
+    
+    <div class="contain">
+        <button id="b1" title="red" class="color"></button>
+        <button id="b2" title="green" class="color"></button>
+        <button id="b3" title="blue" class="color"></button>
+        <button id="b4" title="pink" class="color"></button>
+    </div>
+
+
+    <script src="/app.js">
+    </script>
+</body>
+</html>

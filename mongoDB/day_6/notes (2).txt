@@ -1,0 +1,24 @@
+// Filter query -> we use find() command
+// find method pure document me use hota hai -> mean -> each and every docs apne apne me saperate docs hai un docs me jo bhi chije (keys value pairs) , perticuler condition ko match kar rahi hai un sabhi docs ko filter karke lane ka kaam find method karthi hai.
+
+
+// Aggregation pipeline ->
+groun karenge docs ka -> then unme kuch find karenge 
+pipeline -> ek ke baad dusra 
+
+
+ // 1st reason of using MongoDB:  MongoDB is having an obj id which makes all the docs unique. it has no such prob of primary key , secondary key , candidate key 
+
+//2nd reason of using MongoDB:
+// MongoDB is scalable : it stores data in two methods -> vertical scalable method and other is horizantal scalable method
+
+// system design me ek part hota hai scaling 
+// sharding
+// horizantal-> we devide the physical memory into multiple sub memories
+// vertical-> we try to increase physical memory
+
+// some Aggregation pipelines ke mostly used operators ->
+$match = find = > dondition ko match karane ke liye
+$group = jab docs ki grouping karni hogi 
+$projection = limited keys show karni ho
+$unwind = jab array ko todna ho
