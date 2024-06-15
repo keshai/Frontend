@@ -1,0 +1,17 @@
+system design -> 
+monolatic architecture
+distributive architecture
+
+database design -> mnonolatic or distributive
+monolatic ->  find 
+distributive -> aggregation pipeline ,
+
+$in -> more then one command true // or 
+
+group -> group can be done on the basis of any key 
+documents ko only basis on skills or gender or city , we can group 
+ $group{ 
+    _id: "$gender",
+    sumofuser: {$sum:1}
+    users: {$push :"$$ROOT"}
+ }
