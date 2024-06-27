@@ -1,0 +1,105 @@
+1.) Find all female users from Jaipur who know Python
+db.users.aggregate([
+  { $match: { gender: "Female", city: "Jaipur", skills: "Python" } }
+]);
+
+2.)Find all male users in Delhi who are above age 26
+[
+  {
+    $match: {
+      gender:'Male', city:'New Delhi', age:{$gte:26}
+    }
+  }
+]
+
+3.) Find all users who are from either New Delhi or Mumbai.
+[
+  {
+    $match: {
+				city:{$in: ['New Delhi','Mumbai']}
+    }
+  }
+]
+
+4.) Find all users who have the same last name.
+[
+  {
+    $group: {
+     	_id:'$lastName',
+      users:{$push:'$$ROOT'}
+      }
+    },
+  {
+    $match: {
+      'users.1':{$exists:true}
+    }
+  }
+]
+
+5.) Find the count of users in each city.
+[
+  {
+    $group: {
+      _id: '$city',
+      count:{$sum:1}
+      }
+    }
+]
+
+6.) How many users are from New Delhi?
+[
+  {
+    $match: {
+      city:'New Delhi'
+    }
+    },
+  {
+    $count:'New delhi users'
+  }
+]
+
+7.) How many Female users are from Jaipur?
+[
+  {
+    $match: {
+      gender:'Female', city: 'Jaipur'
+    }
+  },
+  {
+    $count: 'Female users from jaipur'
+  }
+]
+
+8.) How many Male users are there in Delhi who have skills Java?
+[
+  {
+    $match: {
+      gender:'Male',city:'Jaipur',skills:'Java'
+    }
+  },
+  {$count: 'Male,Jaipur,Java'}
+]
+
+9.) How many users are from Hyderabad having age greater than 24 and have skill Python,C++
+[
+  {
+    $match: {
+			city:'Hyderabad',
+      age:{$gte:24},
+      skills:{$all:['Python','C++']}
+    }
+  },
+  {$count: 'Hyderabad Users with Python and C++'}
+]
+
+10.) How many female users are from Goa having age greater than 24 and have skill Python,C++
+[
+  {
+    $match: {
+			city:'Goa',
+      age:{$gte:24},
+      skills:{$all:['Python','C++']}
+    }
+  },
+  {$count: 'Goa Users with Python and C++'}
+]

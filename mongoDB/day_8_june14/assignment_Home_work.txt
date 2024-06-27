@@ -1,0 +1,407 @@
+1.)Find all users from Mumbai who know JavaScript.
+[
+  {
+    $match: {
+      city:'Mumbai', skills:'JavaScript'
+    }
+  }
+]
+
+2.) Find all female users who are above age 30.
+[
+  {
+    $match: {
+      gender:'Female', age:{$gte:30}
+    }
+  }
+]
+
+3.) Find all users who have the same first name.
+[
+  {
+    "$group": {
+      "_id": "$firstName",
+      "users": { "$push": "$$ROOT" }
+    }
+  }
+]
+
+4.) Find the count of users for each role (admin, customer).
+[
+  {
+    $group: {
+      '_id': '$role',
+      'count': {'$sum':1}
+      }
+    }
+]
+
+5.) How many users are from Mumbai?
+[
+  {
+    $match: {
+      
+      city:'Mumbai',
+    }
+  },
+  {
+    $count: 'total'
+  }
+]
+
+6.) How many male users are from Goa?
+[
+  {
+    $match: {
+      gender:'Male',
+      city:'Goa',
+    }
+  },
+  {
+    $count: 'total'
+  }
+]
+
+7.) Find all users who have the same email domain (e.g., @gmail.com).
+// samajh nahi aaya !!
+
+8.) Find all male users from Kolkata who know Python.
+[
+  {
+    $match: {
+      gender:'Male',
+      city:'Kolkata',
+      skills:'Python'
+    }
+  }
+]
+
+9.) Find all users who are from either Assam or Goa.
+->[
+  {
+    $match: {
+      city:{$in:['Assam','Goa']}
+    }
+  }
+]
+
+->[
+  {
+    $match: {
+      '$or':[
+        {'city':'Assam'},
+        {'city':'Goa'}
+      ]
+    }
+  }
+]
+
+10.) Find all users who have a salary greater than 1,000,000.
+[
+  {
+    $match: {
+      salary:{$gte:100000}
+    }
+  }
+]
+
+11.) Find the count of users who know Python.
+[
+  {
+    $match: {
+      skills:'Python'
+    }
+  },
+  {
+     $count: 'total is'
+  }
+]
+
+12.) How many users are from Kolkata?
+[
+  {
+    $match: {
+      city:'Kolkata'
+    }
+  },
+  {
+     $count: 'total is'
+  }
+]
+
+13.) How many male users are from Hyderabad who know JavaScript?
+[
+  {
+    $match: {
+      city:'Hyderabad',
+      gender:'Male',
+      skills:'JavaScript'
+    }
+  },
+  {
+     $count: 'total is'
+  }
+]
+
+14.) How many female users are from New Delhi who have a salary greater than 500,000?
+[
+  {
+    $match: {
+      city:'New Delhi',
+      gender:'Female',
+      salary:{$gte:50000}
+    }
+  },
+  {
+     $count: 'total is'
+  }
+]
+
+15.) Find all users who have the skill "Django" and are under the age of 30
+[
+  {
+    $match: {
+      skills:'Django',
+      age:{$lte:30}
+    }
+  },
+  {
+     $count: 'total is'
+  }
+]
+
+16.) Find all users from Assam who know Kotlin.
+[
+  {
+    $match: {
+      skills:'Kotlin',
+      city:'Assam'
+    }
+  },
+  {
+     $count: 'total is'
+  }
+]
+
+17.) Find all users who are from either Hyderabad or Jaipur.
+[
+  {
+    $match: {
+      '$or':[
+        {'city':'Hyderabad'},
+        {'city':'Jaipur'}
+      ]
+    }
+  }
+]
+
+18.) Find all female users from Mumbai who are under the age of 30.
+[
+  {
+    $match: {
+       gender:'Female',
+       city:'Mumbai',
+       age:{$lte:30}
+    }
+  }
+]
+
+19.) Find all male users who know both Java and SQL.
+[
+  {
+    $match: {
+      	gender:'Male',
+       skills:{$all:['Java','SQL']}
+    }
+  }
+]
+
+20.) Find the count of users who have a salary less than 600,000.
+[
+  {
+    $match: {
+      	salary:{$lte:600000}
+    }
+  },
+  {
+    $count: 'Total is'
+  }
+]
+
+21.) How many users are from Assam who know React?
+[
+  {
+    $match: {
+      	city:'Assam', skills:'React'
+    }
+  },
+  {
+    $count: 'Total is'
+  }
+]
+
+22.) How many male users are from Goa who are above the age of 25?
+[
+  {
+    $match: {
+      	city:'Goa',gender:'Male', age:{$gte:25}
+    }
+  },
+  {
+    $count: 'Total is'
+  }
+]
+
+23.) Find all users who have a first name that starts with "A".
+[
+  {
+    $match: {
+      	'firstName':{'$regex':'^A',}
+    }
+  }
+]
+
+24.) How many female users are from Kolkata who know both Django and SQL?
+[
+  {
+    $match: {
+      	gender:'Female', city:'Kolkata', skills:{$all:['Django','SQL']}
+    }
+  },
+  {
+    $count: 'toatl is'
+  }
+]
+
+25.) Find all users who have the role "admin" and are from New Delhi.
+[
+  {
+    "$match": {
+      "city": "New Delhi",
+      "role": "admin"
+    }
+  }
+]
+
+26.) Find all male users from Hyderabad who know Node.js.
+[
+  {
+    "$match": {
+      "city": "Hyderabad",
+      "gender": "male",
+      "skills": "Node.js"
+    }
+  }
+]
+
+27.) Find all female users from Kolkata who are above age 25.
+[
+  {
+    "$match": {
+      "city": "Kolkata",
+      "gender": "female",
+      "age": { "$gt": 25 }
+    }
+  }
+]
+
+28.) Find all users from Delhi who have a salary greater than 800,000.
+[
+  {
+    "$match": {
+      "city": "Delhi",
+      "salary": { "$gt": 800000 }
+    }
+  }
+]
+
+29.) Find all users who know both Java and Python.
+[
+  {
+    "$match": {
+      "skills": { "$all": ["Java", "Python"] }
+    }
+  }
+]
+
+
+30.) Find the count of users who are under the age of 30.
+[
+  {
+    "$match": {
+      "age": { "$lt": 30 }
+    }
+  },
+  {
+    "$count": "total_users_under_30"
+  }
+]
+
+
+31.) How many female users are from Mumbai who know C++?
+[
+  {
+    "$match": {
+      "city": "Mumbai",
+      "gender": "female",
+      "skills": "C++"
+    }
+  },
+  {
+    "$count": "total_female_users"
+  }
+]
+
+
+32.) How many male users from Assam have a salary less than 500,000?
+[
+  {
+    "$match": {
+      "city": "Assam",
+      "gender": "male",
+      "salary": { "$lt": 500000 }
+    }
+  },
+  {
+    "$count": "total_male_users"
+  }
+]
+
+
+33.) Find all users who have the last name "Sharma" and are from Jaipur.
+[
+  {
+    "$match": {
+      "last_name": "Sharma",
+      "city": "Jaipur"
+    }
+  }
+]
+
+
+34.) How many users from Goa know both HTML and CSS?
+[
+  {
+    "$match": {
+      "city": "Goa",
+      "skills": { "$all": ["HTML", "CSS"] }
+    }
+  },
+  {
+    "$count": "total_users"
+  }
+]
+
+
+35.) Find all users who are from either Hyderabad or Kolkata and know JavaScript.
+[
+  {
+    "$match": {
+      "$or": [
+        { "city": "Hyderabad" },
+        { "city": "Kolkata" }
+      ],
+      "skills": "JavaScript"
+    }
+  }
+]
