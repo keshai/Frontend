@@ -1,0 +1,242 @@
+[
+      {
+          "username": "user1",
+          "password": "pass1",
+          "email": "user1@example.com",
+          "marks": {
+              "Math": 85,
+              "Science": 90,
+              "English": 88,
+              "History": 92
+          },
+          "age": 20,
+          "city": "New York",
+          "gender": "Female",
+          "role": "Student",
+          "skills": ["Python", "JavaScript", "HTML", "CSS"],
+          "phone_number": "555-1234",
+          "address": {
+              "street": "123 Main St",
+              "city": "New York",
+              "state": "NY",
+              "zip": "10001"
+          },
+          "hobbies": ["reading", "swimming", "coding"]
+      },
+      {
+          "username": "user2",
+          "password": "pass2",
+          "email": "user2@example.com",
+          "marks": {
+              "Math": 78,
+              "Science": 83,
+              "English": 80,
+              "History": 85
+          },
+          "age": 22,
+          "city": "Los Angeles",
+          "gender": "Male",
+          "role": "Student",
+          "skills": ["C++", "Java", "SQL", "Linux"],
+          "phone_number": "555-5678",
+          "address": {
+              "street": "456 Oak St",
+              "city": "Los Angeles",
+              "state": "CA",
+              "zip": "90001"
+          },
+          "hobbies": ["basketball", "gaming", "photography"]
+      },
+      {
+          "username": "user3",
+          "password": "pass3",
+          "email": "user3@example.com",
+          "marks": {
+              "Math": 92,
+              "Science": 89,
+              "English": 94,
+              "History": 91
+          },
+          "age": 19,
+          "city": "Chicago",
+          "gender": "Non-binary",
+          "role": "Student",
+          "skills": ["Ruby", "Go", "Docker", "Kubernetes"],
+          "phone_number": "555-9101",
+          "address": {
+              "street": "789 Pine St",
+              "city": "Chicago",
+              "state": "IL",
+              "zip": "60601"
+          },
+          "hobbies": ["chess", "cycling", "music"]
+      },
+      {
+          "username": "user4",
+          "password": "pass4",
+          "email": "user4@example.com",
+          "marks": {
+              "Math": 74,
+              "Science": 78,
+              "English": 79,
+              "History": 82
+          },
+          "age": 21,
+          "city": "Houston",
+          "gender": "Female",
+          "role": "Student",
+          "skills": ["PHP", "Laravel", "JavaScript", "Vue.js"],
+          "phone_number": "555-1122",
+          "address": {
+              "street": "101 Maple St",
+              "city": "Houston",
+              "state": "TX",
+              "zip": "77001"
+          },
+          "hobbies": ["drawing", "running", "cooking"]
+      },
+      {
+          "username": "user5",
+          "password": "pass5",
+          "email": "user5@example.com",
+          "marks": {
+              "Math": 88,
+              "Science": 92,
+              "English": 90,
+              "History": 87
+          },
+          "age": 23,
+          "city": "Phoenix",
+          "gender": "Male",
+          "role": "Student",
+          "skills": ["C#", ".NET", "Azure", "SQL Server"],
+          "phone_number": "555-3344",
+          "address": {
+              "street": "202 Birch St",
+              "city": "Phoenix",
+              "state": "AZ",
+              "zip": "85001"
+          },
+          "hobbies": ["hiking", "fishing", "traveling"]
+      },
+      {
+          "username": "user6",
+          "password": "pass6",
+          "email": "user6@example.com",
+          "marks": {
+              "Math": 81,
+              "Science": 84,
+              "English": 83,
+              "History": 86
+          },
+          "age": 20,
+          "city": "Philadelphia",
+          "gender": "Female",
+          "role": "Student",
+          "skills": ["Swift", "Objective-C", "iOS Development", "Xcode"],
+          "phone_number": "555-4455",
+          "address": {
+              "street": "303 Cedar St",
+              "city": "Philadelphia",
+              "state": "PA",
+              "zip": "19101"
+          },
+          "hobbies": ["reading", "writing", "yoga"]
+      },
+      {
+          "username": "user7",
+          "password": "pass7",
+          "email": "user7@example.com",
+          "marks": {
+              "Math": 90,
+              "Science": 93,
+              "English": 89,
+              "History": 94
+          },
+          "age": 22,
+          "city": "San Antonio",
+          "gender": "Male",
+          "role": "Student",
+          "skills": ["Android Development", "Kotlin", "Java", "Firebase"],
+          "phone_number": "555-5566",
+          "address": {
+              "street": "404 Spruce St",
+              "city": "San Antonio",
+              "state": "TX",
+              "zip": "78201"
+          },
+          "hobbies": ["gaming", "cycling", "coding"]
+      },
+      {
+          "username": "user8",
+          "password": "pass8",
+          "email": "user8@example.com",
+          "marks": {
+              "Math": 76,
+              "Science": 80,
+              "English": 78,
+              "History": 81
+          },
+          "age": 19,
+          "city": "San Diego",
+          "gender": "Female",
+          "role": "Student",
+          "skills": ["React", "Redux", "Node.js", "Express"],
+          "phone_number": "555-6677",
+          "address": {
+              "street": "505 Elm St",
+              "city": "San Diego",
+              "state": "CA",
+              "zip": "92101"
+          },
+          "hobbies": ["surfing", "photography", "painting"]
+      },
+      {
+          "username": "user9",
+          "password": "pass9",
+          "email": "user9@example.com",
+          "marks": {
+              "Math": 87,
+              "Science": 89,
+              "English": 91,
+              "History": 88
+          },
+          "age": 21,
+          "city": "Dallas",
+          "gender": "Male",
+          "role": "Student",
+          "skills": ["Angular", "TypeScript", "RxJS", "NgRx"],
+          "phone_number": "555-7788",
+          "address": {
+              "street": "606 Willow St",
+              "city": "Dallas",
+              "state": "TX",
+              "zip": "75201"
+          },
+          "hobbies": ["tennis", "cooking", "traveling"]
+      },
+      {
+          "username": "user10",
+          "password": "pass10",
+          "email": "user10@example.com",
+          "marks": {
+              "Math": 84,
+              "Science": 85,
+              "English": 87,
+              "History": 90
+          },
+          "age": 23,
+          "city": "San Jose",
+          "gender": "Female",
+          "role": "Student",
+          "skills": ["Machine Learning", "TensorFlow", "Keras", "Python"],
+          "phone_number": "555-8899",
+          "address": {
+              "street": "707 Aspen St",
+              "city": "San Jose",
+              "state": "CA",
+              "zip": "95101"
+          },
+          "hobbies": ["robotics", "reading", "gaming"]
+      }
+  ]

@@ -1,0 +1,15 @@
+1. How many students have passing marks (greater than 50) in all subjects?
+2. How many students have an average mark of less than 50?
+3. List all students who have a percentage greater than 75%.
+4. How many students are from each city?
+5. List all students who have a specific skill (e.g., "Python").
+6. What is the average age of students who have more than one hobby?
+7. Find the student(s) with the highest average marks.
+8. How many students are male, female?
+9. List all students who live in a specific state (e.g., "CA").
+10. What is the average mark in Math for students who have the skill "JavaScript"?
+11. How many students have "coding" as one of their hobbies?
+12. List students along with their average marks who have more than 3 skills.
+13. Find the number of students for each role (e.g., "Student").
+14. List the top 3 students with the highest marks in Science.
+15. How many students have an address in a specific zip code (e.g., "10001")?

@@ -73,5 +73,24 @@
 
 18. Group users by role and calculate the total number of users with more than three skills.
 // samajh nahi aaya !!
+
 19. Group users by gender and city, and find the average number of skills per user in each subgroup.
+[
+  {
+    $group: {
+      _id:{gender:'$gender',city:'$city'},
+      avgSkills:{$avg:{$size:'$skills'}}
+      }
+    }
+]
+
 20. Group users by role and determine the highest and lowest salaries for each role.
+[
+  {
+    $group: {
+      _id:'$role',
+      minSal:{$min:'$salary'},
+      maxSal:{$max:'$salary'}
+      }
+    }
+]
