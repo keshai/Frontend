@@ -3,11 +3,18 @@
 
 function extractobj(data)
 {
+    // data.forEach(element => {
+    //     if(element.id==3)
+    //     {
+    //         const {address} = element;
+    //         console.log(address);
+    //     }
+    // });
+
     data.forEach(element => {
-        if(element.id==3)
-        {
-            const {address} = element;
-            console.log(address);
+        if(element.id ==3){
+            const {address: {city : usercity}} = element;
+            console.log(usercity);
         }
     });
 }

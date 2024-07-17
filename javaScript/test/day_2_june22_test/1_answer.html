@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      
+      <script>
+            // User se 5 input lena hai, inka maximum nikalna hai. Agar maximum > 90 hota hai to ek function call karna hai, jisme maximum aur ek user input ko subtract karna hai aur result return karna hai. Agar result positive hai to us value ka cube return karna hai.  agar result -ve hai to fir uska sqaure nikalna hai aur agar result 0 ata hai to fir apko console log karna hai : "aur nahi ho raha hai merese".
+            function getUserPrompt(){
+                  const inputs= [];
+                  for(let i=0;i<5;i++){ const userInput = parseFloat(prompt(`Enter input ${i+1}: `));
+                        inputs.push(userInput);
+                  }
+                  return inputs;
+            }
+
+            function findMaxVal(inputs){
+                  return Math.max(...inputs);
+            }
+
+            function processResult(maxVal,userInput){
+                  const result = maxVal - userInput;
+                  if(result>0){return result ** 3;}
+                  else if(result<0){return result ** 2;}
+                  else{console.log('aur nahi ho raha hai merese');}
+            }
+
+            const userInputs = getUserPrompt();
+            const maxVal = findMaxVal(userInputs);
+            const userInputSub = parseFloat(prompt('enter a value to substract : '));
+
+            const finalResult = processResult(maxVal , userInputSub);
+            alert(`Final result : ${finalResult}` );
+
+      </script>
+</body>
+</html>

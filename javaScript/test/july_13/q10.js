@@ -18,7 +18,7 @@ const list = async ()=>{
           const zip = data.filter((item)=>{
               if(item.address.zipcode == "92998-3874")
               {
-                  return item;            }
+                  return item; }
           })
           console.log(zip);
       }

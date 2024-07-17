@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <!-- User se 4 input lena hai, inka sum nikalna hai. Agar sum > 100 hota hai to ek function call karna hai, jisme 3 input lena hai aur unka average return karna hai. Agar returned average > 50 hai to ek aur function call karke factorial nikalna hai aur check karna hai wo prime number hai ya nahi. -->
+
+      <script>
+
+            function getInputsAndCalculate(){
+                  const inputArray = []
+                  for(let i=0;i<4;i++){
+                        const userInput = parseFloat(prompt(`Enter input ${i+1}: `));
+                        inputArray.push(userInput);
+                  }
+                  const sum = inputArray.reduce((acc,ele)=> acc+ele,0);
+                  return sum;
+            }
+
+            function calculateAverageAndCheck(sum){
+                  if(sum>100){
+                        const avg = sum/3;
+                        if(avg>50){
+                              return avg;
+                        }
+                  }
+
+                  return null;
+            }
+
+            function calculateFactorial(num){
+                  if(num === 0 || num === 1){
+                        return 1;
+                  }
+                  let result = 1;
+                  for(let i=2;i<=num;i++){
+                        result *= i;
+                  }
+                  return result;
+            }
+
+
+            function isPrime(num){
+                  if(num<=1){
+                        return false;
+                  }
+                  for(let i=2;i<= Math.sqrt(num);i++){
+                        if(num % i === 0){
+                              return false;
+                        }
+                  }
+                  return true;
+            }
+
+
+            const sumResult = getInputsAndCalculate();
+            const avgResult = calculateAverageAndCheck(sumResult);
+            
+            if(avgResult !== null){
+                  const factorial = calculateFactorial(avgResult);
+                  if(isPrime(factorial)){
+                        console.log(`Factorial ${avgResult} is a prime number.`);
+                  }
+                  else{
+                        console.log(`Factorial ${avgResult} is not a prime number.`);
+                  }
+            }
+            else{
+                  console.log("Sum is not greater than 100 or average is not greater than 50.");
+            }
+            
+      </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      
+      <script>
+            // User se 3 input lena hai, inka average nikalna hai. Agar average > 40 hai to ek function call karna hai, jisme 2 input lena hai aur unka product return karna hai. Agar product negative hai to absolute value return karna hai aur uske baad uska reverse nikalna. agar product positive hai to fir check karna hai ki product prime number hai ya nahi hai.
+
+            function getUserPrompt(){
+                  const inputs = [];
+                  for(let i=0;i<3;i++){const userInput = parseFloat(prompt(`Enter input ${i+1}: `));
+                        inputs.push(userInput);
+                  }
+                  return inputs;
+            }
+
+            function calculateAvg(inputs){
+                  const sum = inputs.reduce((acc,ele)=> acc+ele,0);
+                  console.log(sum/ inputs.length);
+                  return sum/ inputs.length;
+            }
+
+            function getProduct(a,b){
+                  return a*b;
+            }
+
+            function isPrime(num){
+                  if(num<=1) return false;
+                  for(let i=2;i<=Math.sqrt(num);i++){
+                        if(num % i === 0) return false;
+                  }
+                  return true;      
+            }
+
+            const userInput = getUserPrompt();
+            const average = calculateAvg(userInput);
+            if(average>40){
+                  const product = getProduct(userInput[0],userInput[1]);
+            
+                  if(product<0){
+                        const absoluteVal = Math.abs(product);
+                        const reverseVal = parseFloat(absoluteVal.toString().split('').reverse().join(''));
+                        console.log(`Reversed val is : ${reverseVal}`);
+                  }
+                  else{
+                        if(isPrime(product)){
+                              console.log('Produce is prime num');
+                        }
+                        else{
+                              console.log('Product is not a prime num');
+                        }
+                  }
+            }
+            else{
+                  console.log('Average is not greater than 40 ');
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+      </script>
+
+
+</body>
+</html>

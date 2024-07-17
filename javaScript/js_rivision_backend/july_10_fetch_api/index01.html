@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+
+      <script>
+
+            // let p = fetch("https://reqres.in/api/users?page=1")
+            // p.then((val1)=>{
+            //       return val1.json();
+            // })
+            // .then((val2)=>{
+            //       console.log(val2);
+            // })
+
+            async function getData(){
+                  let p = await fetch("https://reqres.in/api/users?page=1")
+                  let data  = await p.json().text
+                  return data;
+            }
+            console.log(getData())
+      </script>
+      
+</body>
+</html>
