@@ -1,0 +1,132 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box;}
+html{font-family: Arial, Helvetica, sans-serif;}
+.header{width: 100%; padding: 20px 80px; background-color: rgb(35, 35, 35); display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+.logo{color: white; font-size: 20px; margin: 0px;font-family: Arial, Helvetica, sans-serif;}
+.nav{width: 40%; display: flex; flex-wrap: wrap; justify-content: space-around;}
+.navBtn{text-decoration: none; color: white; font-family: Arial, Helvetica, sans-serif;font-size: 16px;}
+.navBtn:hover{color: rgb(254, 212, 212); text-shadow: 0px 0px 2px rgb(255, 194, 194);}
+
+/* --------------|Home|-------------- */
+.home{height: 600px; background-image: url("./Component/images/slide_01.jpg");background-size: cover; background-position: center;display: flex; align-items: center;justify-content: center ;}
+.hometxt{height: 130px; display: flex; flex-wrap: wrap; align-items: center;justify-content: center;}
+.hometxt h4{color: red;font-size: 22px; font-family: Arial, Helvetica, sans-serif; font-weight: 700;width: 100%;text-align: center; text-transform: uppercase;}
+.hometxt h1{color: white; letter-spacing: 5px;font-family: Arial, Helvetica, sans-serif;font-size: 55px; font-weight: 300; text-transform: uppercase;}
+
+/* --------------|Product|-------------- */
+.latestproduct{width: 100%;padding: 50px 150px;}
+.headingH2{font-family: Arial, Helvetica, sans-serif; font-size: 30px;font-weight: 100;}
+
+/* --------------|Card|-------------- */
+.cards{margin: 50px 0px; border-top: 1px solid rgb(198, 198, 198);border-bottom: 1px solid rgb(198, 198, 198); display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;}
+.card{ height: 330px;width: 340px; padding: 0px 0px 20px 0px;border: 1px solid black; margin: 5px 0px; margin: 20px 0px;}
+.cardImg{ height: 45%;width: 100%;}
+.detail{ height: 55%; padding: 0px 20px;}
+.l1{height: 20%; width: 100%; }
+.l2{height: 60%; width: 100%; }
+.l3{height: 20%; width: 100%; }
+
+/* --------------|About Section|-------------- */
+.about{width: 100%; padding: 50px 150px;}
+.heading{font-family: Arial, Helvetica, sans-serif; font-size: 30px;font-weight: 100;}
+hr{margin: 10px 0px; font-weight: 100;}
+.about-section{ margin: 50px 0px; padding: 20px 0px;display: flex; flex-wrap: nowrap;}
+.about-section .ab-left{ width: 50%;}
+.about-section .ab-right{ width: 50%;}
+.about-section .ab-left .title{color: rgb(26, 102, 146) ; font-size: 20px;font-family: Arial, Helvetica, sans-serif; margin: 0px 0px 20px 0px;}
+.about-section .ab-left .desc{line-height: 25px;}
+.about-section .ab-left ul{text-decoration: none; color: rgb(0, 0, 0); padding: 0px 20px;margin: 20px 0px;}
+.about-section .ab-left ul li{line-height: 30px;}
+.about-section .ab-left ul a{text-decoration: none; color: rgb(0, 0, 0);}
+.about-section .ab-left button{background-color: rgb(255, 53, 53); color:white;border: rgb(255, 53, 53); border-radius: 4px; padding: 10px 22px;font-size: 16px;}
+
+.about-section .ab-right
+{background-image: url("./Component/images/feature-image.jpg"); background-repeat: no-repeat; background-size: cover;}
+
+/* --------------|Subscription / Purchase|-------------- */
+.box{width: 100%; padding: 50px 150px;}
+
+.in-box{display: flex;flex-wrap: nowrap; background-color: rgb(247, 247, 247); padding: 28px 20px;}
+.in-box .box-left{line-height: 30px; width: 70%;}
+.in-box .box-left .title{color: rgb(26, 102, 146);font-size: 20px;}
+
+.in-box .box-right{width: 30% ;display: flex;justify-content: right; padding: 10px 0px;}
+.in-box .box-right button{color: white; background-color: rgb(255, 53, 53);border: rgb(255, 53, 53);border-radius: 4px; padding: 0px 20px;font-size: 16px;height: 40px;}   
+
+
+
+/* --------------------------------|Second Page|--------------------------------- */
+/* ---------------|Filter Products|--------------- */
+.filterProduct{width: 100%; padding: 10px 0px; display: flex; justify-content: center; align-items: center; margin-top: 70px;}
+.filterProduct-inner{width: 500px; padding: 10px 0px;}
+.filterProduct-inner ul{display: flex; justify-content: space-around;}
+.filterProduct-inner ul li{text-decoration: none; list-style: none;}
+.filterProduct-inner ul li a{text-decoration: none; color:black; font-weight: 700; transition: all 0.3s; text-transform: uppercase; font-size: 16px;}
+.filterProduct-inner ul li a:hover{color: red;}
+.filterProduct-inner ul li #crnt{color: red;}
+
+/* ---------------|Page Counter|--------------- */
+.pageCounter{width: 100%; padding: 10px 0px; display: flex; justify-content: center; align-items: center;}
+.pageCounter-inner{width: 300px; padding: 10px 0px;}
+.pageCounter-inner ul{display: flex; justify-content: center;}
+.pageCounter-inner ul li{text-decoration: none; list-style: none;border: 1px solid rgb(203, 203, 203);padding: 12px 18px; margin: 0px 5px; font-weight: 700;}
+.pageCounter-inner ul li a{text-decoration: none; color:black; font-weight: 700; transition: all 0.3s; text-transform: uppercase; font-size: 16px;}
+.pageCounter-inner ul li a:hover{color: red;}
+.pageCounter-inner #crnt{background-color: red; color: white;}
+.pageCounter-inner ul li #a{color: white;}
+
+
+
+/* --------------------------------|Third Page|--------------------------------- */
+/* ---------------| About Us |--------------- */
+.about-page{width: 100%; padding: 50px 150px; margin-top: 70px;display: flex;
+    flex-wrap: wrap;justify-content: center; align-items: center;}
+
+/* ---------------| Quick Links |--------------- */
+    .quick-links{ width: 300px; padding: 10px 15px; background-color: white;border-radius: 4px; padding: 10px 22px; display: flex; justify-content: space-around;}
+.quick-links i{color: black; border: 1px solid black;padding: 10px 12px; font-size: 20px;}
+
+/* ---------------|Our Team|--------------- */
+.ourTeam{width: 100%; padding: 10px 0px; margin-top: 70px;}
+.member-section{border-top: 1px solid rgb(195, 193, 193);border-bottom: 1px solid rgb(195, 193, 193); display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 40px;}
+
+/* ---------------|member-cart|--------------- */
+.member-cart{height: 380px; width: 350px; border: 1px solid rgb(218, 218, 218); margin: 30px 0px;}
+.mem-img{height: 67%; width: 100%;}
+.member-cart .mem-img img{width: 100%;height: 100%;}    
+.member-cart .detail{height: 33%; padding: 10px 15px; display: flex; flex-wrap: wrap; flex-direction: column ;align-items: center;}
+.member-cart .detail .name{color: rgb(26, 102, 146);font-size: 20px; margin: 0px 0px 5px 0px;}
+.member-cart .detail .post{color: rgb(170, 53, 53);font-size: 15px;margin: 0px 0px 15px 0px;}
+.member-cart .detail .desc{color: rgb(122, 122, 122); font-size: 16px; font-family: Arial, Helvetica, sans-serif;text-align: center;}
+
+/* ---------------|ServiceCard|--------------- */
+.Service-div{width: 100%; padding: 60px 110px; display: flex; align-items: center; justify-content: space-evenly; background-image: url("./Component/images/services-bg.jpg"); background-attachment: fixed;}
+.service-card{height: 450px; width: 330px; border: 1px solid rgb(218, 218, 218); margin: 30px 0px; background-color: white;}
+.service-img{height: 55%; width: 100%;}
+.service-card .details{height: 45%; width: 100%;padding: 10px 15px; display: flex; flex-wrap: wrap; flex-direction: column ;align-items: center; justify-content: space-evenly; }
+.service-title{color: rgb(26, 102, 146);font-size: 20px; margin: 0px 0px 5px 0px;}
+.service-desc{color: rgb(122, 122, 122); font-size: 16px; font-family: Arial, Helvetica, sans-serif;text-align: center;}
+.service-btn{padding: 8px 15px; color: white; background-color: rgb(204, 51, 51); border-radius: 4px; border: 1px solid red; text-transform: uppercase;font-size: 16px;}
+
+/* ---------------|Happy Partners|--------------- */
+.partner{width: 100%; padding: 50px 150px; margin-top: 70px;}
+.company{width: 100%; padding: 20px 0px; margin-top: 70px; border-top: 1px solid rgb(180, 180, 180);border-bottom: 1px solid rgb(180, 180, 180); height: 150px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; overflow: hidden;}
+
+
+
+/* --------------------------------|Fourth Page|--------------------------------- */
+/* ---------------|Location|--------------- */
+.Location-main-div{width: 100%; padding: 50px 150px;}
+.location-div{border: 1px solid rgb(218, 218, 218); margin: 30px 0px;}
+.location-div .heading{margin: 0px 0px 50px 0px ;}
+.location-inner-div{ padding: 2px; display: flex; justify-content: center; }
+.location-inner-div .map{border: none;}
+iframe{height:380px; width: 730px;}
+.location-inner-div .details{padding: 0px 50px 0px 50px; }
+.title{color: rgb(26, 102, 146);font-size: 20px; margin: 15px 0px;}
+.desc{color: rgb(122, 122, 122); font-size: 16px; font-family: Arial, Helvetica, sans-serif;text-align: left; margin: 20px 0px 80px 0px; }
+
+
+/* --------------------------------|Footer|--------------------------------- */
+/* ---------------|Footer|--------------- */
+.footer{padding: 80px 150px; display: flex; justify-content: center; align-items: center; }
+.span{color: red;}
